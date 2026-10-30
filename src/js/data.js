@@ -9,6 +9,16 @@ const DATA_CACHE = {
   methodology: null
 };
 
+const BASE_PATH = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.BASE_URL)
+  ? import.meta.env.BASE_URL
+  : './';
+
+function resolveDataPath(filePath) {
+  const cleanBase = BASE_PATH.endsWith('/') ? BASE_PATH : `${BASE_PATH}/`;
+  const cleanFile = filePath.startsWith('/') ? filePath.slice(1) : filePath;
+  return `${cleanBase}${cleanFile}`;
+}
+
 export const CATEGORIES = [
   'Shampoo / Conditioner',
   'Body Wash / Bar Soap',
@@ -29,7 +39,7 @@ export async function fetchProducts() {
     return DATA_CACHE.products;
   }
   try {
-    const res = await fetch('/data/products.json');
+    const res = await fetch(resolveDataPath('data/products.json'));
     if (!res.ok) {
       throw new Error(`Failed to load products.json (${res.status} ${res.statusText})`);
     }
@@ -61,7 +71,7 @@ export async function fetchSurveyData() {
     return DATA_CACHE.survey;
   }
   try {
-    const res = await fetch('/data/survey.json');
+    const res = await fetch(resolveDataPath('data/survey.json'));
     if (!res.ok) {
       throw new Error(`Failed to load survey.json (${res.status} ${res.statusText})`);
     }
@@ -83,7 +93,7 @@ export async function fetchMethodologyData() {
     return DATA_CACHE.methodology;
   }
   try {
-    const res = await fetch('/data/methodology.json');
+    const res = await fetch(resolveDataPath('data/methodology.json'));
     if (!res.ok) {
       throw new Error(`Failed to load methodology.json (${res.status} ${res.statusText})`);
     }

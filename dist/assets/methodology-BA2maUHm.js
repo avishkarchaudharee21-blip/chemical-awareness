@@ -1,4 +1,4 @@
-import{i as d}from"./ui-BlCxtn1L.js";import{a as p}from"./data-6mhSYh5v.js";async function g(){if(typeof document>"u")return;d();const a=document.getElementById("methodology-container");if(a){a.innerHTML=`
+import{i as d}from"./ui-Lo92pg_q.js";import{a as p}from"./data-CRvTza4r.js";async function g(){if(typeof document>"u")return;d();const a=document.getElementById("methodology-container");if(a){a.innerHTML=`
     <div class="loading-state" aria-live="polite">
       <div class="spinner" aria-hidden="true"></div>
       <p>Loading scoring methodology...</p>
