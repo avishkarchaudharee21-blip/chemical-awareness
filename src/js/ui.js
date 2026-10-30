@@ -26,7 +26,7 @@ export function initNavigation() {
     const cleanHref = href.replace(/^\.\//, '/');
     if (
       currentPath.endsWith(href) ||
-      ((currentPath === '/' || currentPath.endsWith('/ChemAware') || currentPath.endsWith('/index.html')) && (href === 'index.html' || href === './index.html' || href === '/')) ||
+      ((currentPath === '/' || currentPath.endsWith('/chemical-awareness') || currentPath.endsWith('/ChemAware') || currentPath.endsWith('/index.html')) && (href === 'index.html' || href === './index.html' || href === '/')) ||
       (currentPath.endsWith('index.html') && href.includes('index.html')) ||
       (currentPath.endsWith('explore.html') && href.includes('explore.html')) ||
       (currentPath.endsWith('product.html') && href.includes('product.html')) ||

@@ -1,4 +1,4 @@
-import{i as I}from"./ui-Lo92pg_q.js";import{b as L,f as B}from"./data-CRvTza4r.js";import{a as S,r as M}from"./score-B4Ecq_Ph.js";async function D(){if(typeof document>"u")return;I();const n=document.getElementById("product-detail-container");if(!n)return;const r=new URLSearchParams(window.location.search).get("id");if(!r||!r.trim()){w(n,"No Product Selected","Please select a product from the Explore catalog to inspect its chemical formulation.");return}n.innerHTML=`
+import{i as I}from"./ui-CDB3veB4.js";import{b as L,f as B}from"./data-DBSestQL.js";import{a as S,r as M}from"./score-B4Ecq_Ph.js";async function D(){if(typeof document>"u")return;I();const n=document.getElementById("product-detail-container");if(!n)return;const r=new URLSearchParams(window.location.search).get("id");if(!r||!r.trim()){w(n,"No Product Selected","Please select a product from the Explore catalog to inspect its chemical formulation.");return}n.innerHTML=`
     <div class="loading-state" aria-live="polite">
       <div class="spinner" aria-hidden="true"></div>
       <p>Loading chemical formulation data...</p>

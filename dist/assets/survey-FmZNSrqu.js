@@ -1,4 +1,4 @@
-import{i as $}from"./ui-Lo92pg_q.js";import{c as S}from"./data-CRvTza4r.js";async function w(){if(typeof document>"u")return;$();const t=document.getElementById("survey-container");if(t){t.innerHTML=`
+import{i as $}from"./ui-CDB3veB4.js";import{c as S}from"./data-DBSestQL.js";async function w(){if(typeof document>"u")return;$();const t=document.getElementById("survey-container");if(t){t.innerHTML=`
     <div class="loading-state" aria-live="polite">
       <div class="spinner" aria-hidden="true"></div>
       <p>Checking survey registry...</p>
