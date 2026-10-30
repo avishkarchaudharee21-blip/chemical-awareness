@@ -1,0 +1,18 @@
+{
+  "name": "chemical-awareness",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.mjs",
+    "test:data": "node scripts/build-data.mjs",
+    "test": "node scripts/test-features.mjs && node scripts/test-product-renderer.mjs && node scripts/test-scoring-and-methodology.mjs && node scripts/test-survey.mjs && node scripts/test-search-audit.mjs && node scripts/qa-audit.mjs && node scripts/build-data.mjs",
+    "qa": "node scripts/qa-audit.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

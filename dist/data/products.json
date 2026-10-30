@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "SH-001",
+    "category": "Shampoo / Conditioner",
+    "brand": "Head & Shoulders",
+    "brandKey": "head-and-shoulders",
+    "name": "Smooth & Silky Anti-Dandruff Shampoo",
+    "productType": "Rinse-off",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official India product page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.headandshoulders.co.in/en-IN/shop-products/dandruff-shampoo/Smooth-and-Silky-Shampoo"
+    ],
+    "ingredients": [
+      {
+        "name": "Zinc Pyrithione",
+        "function": "Anti-Dandruff Active Ingredient & Antimicrobial Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Cytotoxic to aquatic organisms with long-lasting effects. Potential ocular and scalp irritant in sensitive individuals.",
+        "evidence": "EU SCCS Opinion SCCS/1614/19; US FDA OTC Drug Review 21 CFR Part 358; ECHA REACH Dossier EC 236-671-3",
+        "note": "Active anti-fungal agent targeting Malassezia globosa; strictly regulated in rinse-off products.",
+        "sourceIds": [
+          "SCCS",
+          "FDA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Laureth Sulfate (SLES)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential skin and ocular irritant at elevated concentrations; can induce transepidermal water loss on compromised scalps.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment; ECHA Registration Dossier EC 500-234-8",
+        "note": "Ethoxylated anionic surfactant providing rich lather in rinse-off applications.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Amphoteric Co-Surfactant & Viscosity Builder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential contact sensitization primarily associated with manufacturing impurities (amidoamine and DMAPA).",
+        "evidence": "CIR Safety Assessment of Cocamidopropyl Betaine (2012); American Contact Dermatitis Society Allergen Review",
+        "note": "Moderates the harshness of primary sulfate surfactants.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains complex proprietary aromatic mixtures; recognized as a leading cause of allergic contact dermatitis in cosmetics.",
+        "evidence": "EU SCCS Opinion on Fragrance Allergens (SCCS/1459/11); IFRA Standards 50th Amendment",
+        "note": "Disclosed under generic 'Parfum' labeling.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Dimethicone",
+        "function": "Silicone Conditioning Emollient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing on human stratum corneum; environmental persistence subject to ongoing monitoring.",
+        "evidence": "CIR Safety Assessment of Dimethicone (2003); ECHA REACH Evaluation",
+        "note": "Smooths hair cuticles and prevents moisture loss.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster & Buffering Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-toxic organic acid; readily cleared via physiological Krebs cycle; transient stinging if in direct contact with broken skin.",
+        "evidence": "US FDA GRAS Status 21 CFR §184.1033; CIR Safety Assessment",
+        "note": "Maintains formulation pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "function": "Antimicrobial Food-Grade Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low dermal irritation potential at typical cosmetic levels (<0.5%).",
+        "evidence": "CIR Safety Assessment of Benzoic Acid and Sodium Benzoate; WHO Food Additives Series",
+        "note": "Protects aqueous formula against fungal contamination.",
+        "sourceIds": [
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Apply onto wet hair and scalp. Massage gently to create a rich lather for 1 to 2 minutes, then rinse thoroughly with clean water. Avoid direct contact with eyes; rinse immediately if contact occurs.",
+    "alternatives": [
+      "SH-002",
+      "SH-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 18.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 6.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 5.0
+      },
+      "total": 51.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.1,
+      "band": "Moderate identified concern",
+      "rationale": "Formulated with anti-dandruff active zinc pyrithione and anionic surfactants. Presents moderate scalp and contact allergen considerations balanced by short rinse-off contact time."
+    }
+  },
+  {
+    "id": "SH-002",
+    "category": "Shampoo / Conditioner",
+    "brand": "Dove",
+    "brandKey": "dove",
+    "name": "Daily Shine Shampoo",
+    "productType": "Rinse-off",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "medium",
+    "verificationNote": "Current variant/label needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.dove.com/in/hair-care/shampoo/daily-shine-shampoo.html"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Laureth Sulfate (SLES)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary surfactant irritant if unrinsed; potential to strip epidermal lipids causing transepidermal water loss.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment; ECHA REACH Dossier",
+        "note": "Anionic cleanser for sebum and particulate removal.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Amphoteric Co-Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Low intrinsic toxicity; potential allergic contact dermatitis in individuals sensitized to amidoamine intermediates.",
+        "evidence": "CIR Safety Assessment (2012)",
+        "note": "Mild secondary surfactant improving lather density.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Undisclosed aromatic mixture; leading cause of contact dermatitis in personal care products.",
+        "evidence": "EU SCCS/1459/11; IFRA Standards",
+        "note": "Proprietary floral fragrance blend.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Skin-Identical Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Exceptional biological compatibility; non-irritating and non-sensitizing.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); USP-NF Monograph",
+        "note": "Attracts atmospheric moisture to preserve hair hydration.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Dimethiconol",
+        "function": "Silicone Hair Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign emollient polymer; safe for topical cosmetic use.",
+        "evidence": "CIR Safety Assessment of Dimethiconol",
+        "note": "Deposits microscopic smoothing film on hair shafts.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Physiological organic acid; safe at buffered cosmetic levels.",
+        "evidence": "US FDA 21 CFR §184.1033 (GRAS)",
+        "note": "Maintains acidic pH balance to seal cuticles.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Massage gently into wet hair and scalp, work into a rich lather, and rinse thoroughly. Suitable for daily or regular hair cleansing.",
+    "alternatives": [
+      "SH-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on documented active surfactant and conditioning system for Dove Daily Shine range; primary package label verification required for exact regional preservative and fragrance fractions.",
+      "factors": {
+        "ingredientConcernProfile": 15.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 8.0,
+        "evidenceStrength": 13.0,
+        "concernAreas": 4.0
+      },
+      "total": 46.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.6,
+      "band": "Moderate identified concern",
+      "rationale": "Mild conditioning daily shampoo featuring SLES and betaine co-surfactants with synthetic fragrance. Evaluated as moderate concern under regular rinse-off exposure."
+    }
+  },
+  {
+    "id": "SH-003",
+    "category": "Shampoo / Conditioner",
+    "brand": "TRESemmé",
+    "brandKey": "tresemme",
+    "name": "Keratin Smooth Shampoo",
+    "productType": "Rinse-off",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official India product page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.tresemme.in/products/tresemme-keratin-smooth-shampoo-340ml"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Laureth Sulfate (SLES)",
+        "function": "Primary Anionic Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate skin and ocular irritant at elevated cleansing concentrations; potential to dry sensitive scalps.",
+        "evidence": "CIR Safety Assessment; ECHA REACH Dossier",
+        "note": "Provides cleansing and foaming performance.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Foaming Co-Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential allergic contact sensitization related to amine synthesis intermediates.",
+        "evidence": "CIR Safety Assessment (2012)",
+        "note": "Improves lather creaminess and moderates sulfate irritation.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Masking & Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed fragrance allergens; potential contact dermatitis trigger.",
+        "evidence": "EU SCCS/1459/11; IFRA Standards",
+        "note": "Salon signature fragrance blend.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Hydrolyzed Keratin",
+        "function": "Protein Conditioning Emollient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Biocompatible hydrolyzed protein; non-irritating and non-sensitizing.",
+        "evidence": "CIR Safety Assessment of Hydrolyzed Keratin",
+        "note": "Temporarily binds to damaged hair cuticles to improve smoothness.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Argania Spinosa (Argan) Kernel Oil",
+        "function": "Natural Conditioning Botanical Oil",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign plant lipid rich in fatty acids and vitamin E; negligible irritation.",
+        "evidence": "CIR Safety Assessment of Plant-Derived Fatty Acids",
+        "note": "Provides gloss and lipid lubrication.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Balancer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe organic acid buffering agent.",
+        "evidence": "US FDA GRAS 21 CFR §184.1033",
+        "note": "Maintains acidic pH balance.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Apply generously to wet hair, gently massage scalp and roots with fingertips into a lather, and rinse thoroughly from roots to tips.",
+    "alternatives": [
+      "SH-001",
+      "SH-002"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 15.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 6.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 4.0
+      },
+      "total": 47.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.7,
+      "band": "Moderate identified concern",
+      "rationale": "Salon-style conditioning shampoo formulated with anionic surfactants, silicone conditioning agents, and added keratin/argan oils. Presents moderate dermal barrier considerations."
+    }
+  },
+  {
+    "id": "BW-001",
+    "category": "Body Wash / Bar Soap",
+    "brand": "Dove",
+    "brandKey": "dove",
+    "name": "Original Beauty Bar",
+    "productType": "Rinse-off bar",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "medium",
+    "verificationNote": "Current India ingredient label needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.dove.com/in/washing-and-bathing/beauty-bar/white-beauty-bar.html"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Lauroyl Isethionate",
+        "function": "Mild Synthetic Anionic Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low irritation potential; significantly milder to stratum corneum lipids than conventional alkaline soaps.",
+        "evidence": "CIR Safety Assessment of Isethionate Salts (2013)",
+        "note": "Primary cleansing agent in syndet beauty bars.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Stearic Acid",
+        "function": "Fatty Acid Structuring Agent & Emollient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign physiological lipid; non-irritating and non-sensitizing.",
+        "evidence": "CIR Safety Assessment of Stearic Acid (2019)",
+        "note": "Provides bar hardness and moisturizing emolliency.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Palmate",
+        "function": "Saponified Palm Fatty Acid Soap Base",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild alkaline surface-active cleanser; potential for slight epidermal drying on prolonged contact.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Solid soap structurant.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Skin-Identical Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe physiological humectant; promotes stratum corneum moisture retention.",
+        "evidence": "CIR Safety Assessment; USP Monograph",
+        "note": "Natural byproduct of saponification.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains complex aroma chemicals; recognized contact allergen class.",
+        "evidence": "EU SCCS/1459/11; IFRA Standards",
+        "note": "Signature Dove clean fragrance note.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Titanium Dioxide",
+        "function": "Opacifying Mineral Pigment",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe insoluble mineral opacifier in solid rinse-off wash formulations; no inhalation hazard in bar form.",
+        "evidence": "CIR Cosmetic Safety Review; SCCS Nano Guidance",
+        "note": "Imparts solid white opacity.",
+        "sourceIds": [
+          "CIR",
+          "SCCS"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Rub the beauty bar between hands to create lather, smooth over wet skin, and rinse thoroughly with clean water.",
+    "alternatives": [
+      "BW-002",
+      "BW-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on Dove's international 1/4 moisturizing cream syndet formulation; exact regional preservative and fragrance constituent disclosure pending label verification.",
+      "factors": {
+        "ingredientConcernProfile": 9.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 14.0,
+        "concernAreas": 2.5
+      },
+      "total": 37.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 3.8,
+      "band": "Lower identified concern",
+      "rationale": "Syndet cleansing bar based on mild sodium lauroyl isethionate and glycerin rather than harsh alkaline tallowate soaps, showing lower identified concern."
+    }
+  },
+  {
+    "id": "BW-002",
+    "category": "Body Wash / Bar Soap",
+    "brand": "Dettol",
+    "brandKey": "dettol",
+    "name": "Skincare / Argan Oil Bathing Bar",
+    "productType": "Rinse-off bar",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Exact current variant needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.dettol.co.in/personal-hygiene/bar-soaps/"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Palmate & Sodium Palm Kernelate",
+        "function": "Saponified Alkaline Soap Base",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "High pH alkaline wash (>9.5); can temporarily disrupt skin acid mantle and natural lipid barrier.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Standard vegetable fatty acid soap noodles.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Chloroxylenol (PCMX)",
+        "function": "Active Antibacterial Biocide",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Chlorinated phenolic biocide; known skin and ocular irritant, potential contact sensitizer, toxic to aquatic organisms.",
+        "evidence": "ECHA Registration Dossier EC 201-793-8; US FDA OTC Antimicrobial Drug Review",
+        "note": "Active germicidal agent utilized in antiseptic personal washes.",
+        "sourceIds": [
+          "ECHA",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Undisclosed aromatic mixture; potential cause of allergic contact dermatitis.",
+        "evidence": "SCCS/1459/11; IFRA Standards",
+        "note": "Masking fragrance for antiseptic active note.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Humectant & Skin Conditioner",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe physiological moisturizer.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Mitigates alkaline drying effect.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Argania Spinosa Kernel Oil",
+        "function": "Conditioning Emollient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign cosmetic plant lipid.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Nourishing lipid additive.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "function": "Chelating Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low acute toxicity; potential penetration enhancer for other ingredients.",
+        "evidence": "CIR Safety Assessment of EDTA",
+        "note": "Binds hard water metal ions to maintain soap lather.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Lather bar soap onto wet body, wash thoroughly, and rinse off completely with water. Avoid contact with eyes.",
+    "alternatives": [
+      "BW-001"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score reflecting chlorinated phenolic biocide (Chloroxylenol) antimicrobial soap profile; packaging confirmation required for exact active concentration.",
+      "factors": {
+        "ingredientConcernProfile": 20.0,
+        "exposureCharacteristics": 7.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 13.0,
+        "concernAreas": 6.0
+      },
+      "total": 56.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.6,
+      "band": "Moderate identified concern",
+      "rationale": "Antibacterial bathing bar combining alkaline saponified base with chloroxylenol antimicrobial active and synthetic fragrance, presenting moderate concern under repeated daily bathing."
+    }
+  },
+  {
+    "id": "BW-003",
+    "category": "Body Wash / Bar Soap",
+    "brand": "Lux",
+    "brandKey": "lux",
+    "name": "Radiant Glow Soap",
+    "productType": "Rinse-off bar",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Exact current variant/label needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.lux.com/in/home.html"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Palmate & Sodium Palm Kernelate",
+        "function": "Saponified Alkaline Soap Base",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "High pH alkaline wash (>9.5); can cause skin dryness through temporary extraction of stratum corneum lipids.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Classic saponified vegetable oil noodles.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Concentrated Floral Aroma",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Prominent fragrance component; leading cause of contact dermatitis in fragranced hygiene products.",
+        "evidence": "EU SCCS/1459/11; IFRA Standards",
+        "note": "Multi-component perfume blend.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Titanium Dioxide",
+        "function": "Opacifying Pigment",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe cosmetic opacifier in solid bar form.",
+        "evidence": "CIR; SCCS",
+        "note": "Imparts creamy opacity.",
+        "sourceIds": [
+          "CIR",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating, physiological skin moisturizer.",
+        "evidence": "CIR; USP",
+        "note": "Helps offset soap dryness.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "function": "Chelating Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe chelating agent in wash-off products.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Prevents soap scum formation in hard water.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Rub bar on wet skin to produce rich lather, apply over body, and rinse thoroughly with clean water.",
+    "alternatives": [
+      "BW-001"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on standard mass-market fragranced soap composition; primary packaging review needed for full allergen declaration.",
+      "factors": {
+        "ingredientConcernProfile": 13.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 12.0,
+        "concernAreas": 4.0
+      },
+      "total": 45.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.5,
+      "band": "Moderate identified concern",
+      "rationale": "Alkaline fatty acid soap bar featuring prominent synthetic fragrance blend, exhibiting moderate identified concern primarily driven by potential fragrance sensitization."
+    }
+  },
+  {
+    "id": "TP-001",
+    "category": "Toothpaste",
+    "brand": "Colgate",
+    "brandKey": "colgate",
+    "name": "Strong Teeth Toothpaste",
+    "productType": "Oral-use, rinse/spit",
+    "exposureType": "oral-use",
+    "verificationStatus": "partial",
+    "dataConfidence": "medium",
+    "verificationNote": "Official India product page; current full INCI list not captured in source result",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.colgate.com/en-in/products/toothpaste/strong-teeth"
+    ],
+    "ingredients": [
+      {
+        "name": "Calcium Carbonate",
+        "function": "Mineral Cleaning Abrasive & Calcium Source",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low biological toxicity; effective mechanical plaque removal without damaging sound enamel.",
+        "evidence": "US FDA 21 CFR §355 (Anticaries Monograph); CIR Safety Assessment",
+        "note": "Natural mineral abrasive supporting remineralization.",
+        "sourceIds": [
+          "FDA",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Monofluorophosphate",
+        "function": "Anticaries Active Ingredient (Fluoride Source)",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Clinically proven remineralizing agent; excessive accidental ingestion by young children can cause dental fluorosis.",
+        "evidence": "WHO Technical Report 846 on Fluorides and Oral Health; US FDA 21 CFR §355",
+        "note": "Standard fluoride source providing anticaries protection.",
+        "sourceIds": [
+          "WHO",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Anionic Foaming & Cleansing Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known oral mucosal irritant; linked in clinical trials to recurrent aphthous ulcers (canker sores) and epithelial desquamation in sensitive users.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS; Nordic Dental Clinical Investigations",
+        "note": "Generates characteristic oral foam in conventional dentifrices.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Hydrated Silica",
+        "function": "Polishing Abrasive & Viscosity Builder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Amorphous non-crystalline mineral; biocompatible oral polishing agent.",
+        "evidence": "US FDA OTC Drug Review; CIR Assessment",
+        "note": "Gently cleans tooth surface stains.",
+        "sourceIds": [
+          "FDA",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Flavor (Aroma)",
+        "function": "Oral Flavoring & Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Proprietary mint flavoring complex; potential trigger of contact cheilitis and stomatitis in sensitive individuals.",
+        "evidence": "IFRA Standards; American Contact Dermatitis Society Dental Monograph",
+        "note": "Delivers characteristic fresh breath sensation.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Sorbitol",
+        "function": "Humectant & Sweetening Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-cariogenic polyol humectant; completely safe for oral hygiene.",
+        "evidence": "US FDA GRAS Status 21 CFR §184.1835",
+        "note": "Prevents paste drying out in tube.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Brush thoroughly at least twice a day, or as directed by a dentist. Children under 6 years should use a pea-sized amount under adult supervision. Do not swallow; spit and rinse thoroughly.",
+    "alternatives": [
+      "TP-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 17.0,
+        "exposureCharacteristics": 8.0,
+        "frequencyOfUse": 11.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 5.0
+      },
+      "total": 57.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.7,
+      "band": "Moderate identified concern",
+      "rationale": "Established fluoride toothpaste with proven anticaries efficacy. Anionic SLS surfactant introduces mucosal sensitivity considerations, placing it in moderate identified concern."
+    }
+  },
+  {
+    "id": "TP-002",
+    "category": "Toothpaste",
+    "brand": "Sensodyne",
+    "brandKey": "sensodyne",
+    "name": "Fresh Gel",
+    "productType": "Oral-use, rinse/spit",
+    "exposureType": "oral-use",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "medium",
+    "verificationNote": "Current India ingredient label needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.sensodyne.in/products/"
+    ],
+    "ingredients": [
+      {
+        "name": "Potassium Nitrate",
+        "function": "Active Desensitizing Agent (5% w/w)",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Active agent depolarizing dental pulp nerve endings; safe and effective for dentin hypersensitivity in OTC use.",
+        "evidence": "US FDA 21 CFR §355; ADA Acceptance Program Guidelines",
+        "note": "Clinical desensitizing active.",
+        "sourceIds": [
+          "FDA"
+        ]
+      },
+      {
+        "name": "Sodium Fluoride",
+        "function": "Anticaries Active Ingredient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Enamel remineralizing agent; pediatric ingestion caution advised to prevent fluorosis.",
+        "evidence": "WHO Technical Report 846; US FDA Monograph",
+        "note": "Provides standard cavity defense.",
+        "sourceIds": [
+          "WHO",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Sorbitol & Hydrated Silica",
+        "function": "Gel Vehicle & Non-Abrasive Polishing Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe biocompatible dentifrice excipients with low relative dentin abrasivity (RDA).",
+        "evidence": "CIR; FDA GRAS",
+        "note": "Protects exposed dentin from mechanical wear.",
+        "sourceIds": [
+          "FDA",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Mild Foaming Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Significantly less mucosal peeling than SLS; rare contact allergy reported.",
+        "evidence": "CIR Safety Assessment (2012)",
+        "note": "Gentler alternative to sulfate foaming agents.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Flavor (Aroma)",
+        "function": "Cooling Gel Flavoring",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential mucosal allergen for sensitive individuals.",
+        "evidence": "IFRA Standards",
+        "note": "Delivers fresh gel flavor.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Brush twice daily and not more than 3 times, minimize swallowing and spit out. Not for use by children under 12 years unless advised by a dentist.",
+    "alternatives": [
+      "TP-001",
+      "TP-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on published Sensodyne Fresh Gel desensitizing formulation (potassium nitrate + sodium fluoride); current India packaging label verification required.",
+      "factors": {
+        "ingredientConcernProfile": 13.0,
+        "exposureCharacteristics": 8.0,
+        "frequencyOfUse": 11.0,
+        "evidenceStrength": 14.0,
+        "concernAreas": 4.0
+      },
+      "total": 50.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.0,
+      "band": "Moderate identified concern",
+      "rationale": "Desensitizing gel dentifrice formulated without SLS, reducing oral mucosal stripping risk while maintaining fluoride and nerve-depolarizing actives."
+    }
+  },
+  {
+    "id": "TP-003",
+    "category": "Toothpaste",
+    "brand": "Dabur",
+    "brandKey": "dabur",
+    "name": "Red Paste",
+    "productType": "Oral-use, rinse/spit",
+    "exposureType": "oral-use",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official Dabur product page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.dabur.com/our-brand/dabur-red-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "Calcium Carbonate",
+        "function": "Mineral Abrasive & Polishing Base",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low biological toxicity; effective natural mineral plaque abrasive.",
+        "evidence": "CIR Safety Assessment; US FDA OTC Review",
+        "note": "Primary cleaning mineral.",
+        "sourceIds": [
+          "CIR",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Pudina Satva (Menthol)",
+        "function": "Natural Cooling & Breath-Freshening Botanical",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Natural terpene alcohol; safe in oral care, transient mucosal tingling in sensitized individuals.",
+        "evidence": "CIR Safety Assessment of Menthol",
+        "note": "Delivers traditional oral freshness.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Clove Oil (Eugenol Active)",
+        "function": "Traditional Analgesic & Antibacterial Spice Extract",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known dental contact allergen in patch testing; can cause mucosal tingling or burning in sensitive mouths.",
+        "evidence": "EU SCCS Fragrance Allergen Review; US FDA Dental Drug Evaluation",
+        "note": "Traditional herbal constituent for toothache and gingival relief.",
+        "sourceIds": [
+          "SCCS",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Tomar Beej (Zanthoxylum alatum)",
+        "function": "Traditional Antiseptic Botanical Seed",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Natural herbal astringent with established traditional safety history.",
+        "evidence": "Ayurvedic Pharmacopoeia of India; WHO Traditional Medicine Monographs",
+        "note": "Traditional oral botanical.",
+        "sourceIds": [
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sunthi (Zingiber officinale / Ginger)",
+        "function": "Herbal Anti-Inflammatory Botanical",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign culinary spice extract; safe in oral hygiene.",
+        "evidence": "WHO Monographs on Selected Medicinal Plants",
+        "note": "Traditional gum health tonic.",
+        "sourceIds": [
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Apply 2–3 grams of Dabur Red Paste on a toothbrush. Brush twice daily, morning and before bed. Spit out and rinse thoroughly with clean water.",
+    "alternatives": [
+      "TP-001"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 10.0,
+        "exposureCharacteristics": 7.5,
+        "frequencyOfUse": 11.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 3.0
+      },
+      "total": 47.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.8,
+      "band": "Moderate identified concern",
+      "rationale": "Herbal dentifrice based on calcium carbonate and traditional botanicals (clove oil, menthol). Demonstrates low chemical toxicity with minor mucosal sensitivity considerations from active spice constituents."
+    }
+  },
+  {
+    "id": "HC-001",
+    "category": "House Cleaning Products",
+    "brand": "Harpic",
+    "brandKey": "harpic",
+    "name": "Bathroom Cleaner Lemon",
+    "productType": "Household cleaner",
+    "exposureType": "household-cleaner",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "medium",
+    "verificationNote": "Current label/composition needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.harpic.co.in/bathroom/surfaces/harpic-bathroom-cleaner-lemon-500ml/"
+    ],
+    "ingredients": [
+      {
+        "name": "Acidic Descaling Complex (Hydrochloric / Organic Acid)",
+        "function": "Heavy Mineral & Limescale Descaling Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Corrosive to eyes and skin; respiratory tract irritant from airborne vapors in enclosed bathrooms.",
+        "evidence": "US EPA Chemical Hazard Profile; NIOSH Chemical Safety Guide; ECHA Dossier",
+        "note": "Potent bathroom cleaner active dissolving soap scum and rust.",
+        "sourceIds": [
+          "EPA",
+          "WHO",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Non-Ionic & Cationic Surfactants",
+        "function": "Detergency & Wetting Agents",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate skin and ocular irritation; aquatic ecotoxicity upon drain discharge.",
+        "evidence": "HERA Risk Assessment for Household Surfactants; ECHA",
+        "note": "Aids surface penetration and dirt suspension.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Lemon Aroma)",
+        "function": "Odor Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Aerosolized fragrance allergens; potential respiratory irritation in confined unventilated spaces.",
+        "evidence": "IFRA Standards; SCCS",
+        "note": "Citrus scent masking acidic cleaner base.",
+        "sourceIds": [
+          "IFRA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Colorant",
+        "function": "Aesthetic Formulation Dye",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low toxicological concern at trace dilution levels.",
+        "evidence": "CIR Assessment of Industrial Dyes",
+        "note": "Provides visible coverage indication.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "For regular cleaning, dilute 1.5 capfuls in half a bucket of water (4L). For tough bathroom stains, apply undiluted onto surface, leave for 5 minutes, scrub gently, and rinse. Use in well-ventilated areas and wear protective rubber gloves.",
+    "alternatives": [
+      "HC-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on standard acidic institutional/household bathroom cleaner benchmarks; exact proprietary surfactant and acid percentage pending batch label confirmation.",
+      "factors": {
+        "ingredientConcernProfile": 26.0,
+        "exposureCharacteristics": 15.0,
+        "frequencyOfUse": 5.0,
+        "evidenceStrength": 14.0,
+        "concernAreas": 8.0
+      },
+      "total": 68.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.8,
+      "band": "Moderate identified concern",
+      "rationale": "Potent acid-based bathroom descaling cleaner posing skin, eye, and respiratory irritation risks, requiring protective gloves and good ventilation during application."
+    }
+  },
+  {
+    "id": "HC-002",
+    "category": "House Cleaning Products",
+    "brand": "Lizol",
+    "brandKey": "lizol",
+    "name": "Disinfectant Surface Cleaner Pine",
+    "productType": "Household cleaner",
+    "exposureType": "household-cleaner",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "medium",
+    "verificationNote": "Current label/composition needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.lizol.co.in/products/disinfectant-surface-cleaner/disinfectant-surface-cleaner-pine-500/"
+    ],
+    "ingredients": [
+      {
+        "name": "Benzalkonium Chloride (BKC / Quat Disinfectant)",
+        "function": "Broad-Spectrum Antimicrobial Disinfectant Active",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Recognized skin irritant, contact allergen, and recognized respiratory asthmagen; highly toxic to aquatic life.",
+        "evidence": "US EPA Reregistration Eligibility Decision (RED) for Alkyl Dimethyl Benzyl Ammonium Chloride; ECHA Substance Infocard EC 270-325-2",
+        "note": "Standard cationic quaternary ammonium biocide effective against 99.9% germs.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Non-Ionic Surfactants (Alcohol Ethoxylates)",
+        "function": "Surface Detergency & Wetting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild surfactant with low human toxicity at diluted wash levels; biodegradable.",
+        "evidence": "HERA Assessment of Alcohol Ethoxylates; ECHA",
+        "note": "Dissolves surface grease and soil.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Pine Fragrance (Contains Terpenes)",
+        "function": "Olfactory Scenting & Deodorizing Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains volatile terpenes (pinene, limonene); potential respiratory and dermal sensitizer upon prolonged inhalation.",
+        "evidence": "IFRA Standards; SCCS",
+        "note": "Traditional pine deodorizing fragrance.",
+        "sourceIds": [
+          "IFRA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Sodium Bicarbonate / Builder",
+        "function": "pH Buffer & Detergent Builder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign physiological mineral salt; non-toxic.",
+        "evidence": "US FDA GRAS Status",
+        "note": "Maintains cleaning efficiency.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Floor cleaning: Mix 1 capful (approx. 20ml) in 4 liters of water. Mop surface gently. For disinfection on kitchen counters or pet areas: apply undiluted on soiled area, leave for 5 minutes, and wipe clean. Wash hands after use.",
+    "alternatives": [
+      "HC-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score reflecting BKC quaternary ammonium disinfectant benchmark; primary packaging verification required for exact variant formulation.",
+      "factors": {
+        "ingredientConcernProfile": 24.0,
+        "exposureCharacteristics": 13.0,
+        "frequencyOfUse": 8.0,
+        "evidenceStrength": 15.0,
+        "concernAreas": 7.0
+      },
+      "total": 67.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.7,
+      "band": "Moderate identified concern",
+      "rationale": "Quaternary ammonium disinfectant cleaner with broad germicidal efficacy but notable occupational and household concerns regarding respiratory sensitization and aquatic eco-toxicity."
+    }
+  },
+  {
+    "id": "HC-003",
+    "category": "House Cleaning Products",
+    "brand": "Colin",
+    "brandKey": "colin",
+    "name": "Glass & Multi-Surface Cleaner",
+    "productType": "Household cleaner",
+    "exposureType": "household-cleaner",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Current label/composition needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.colinglasscleaner.in"
+    ],
+    "ingredients": [
+      {
+        "name": "Isopropanol & Solvent Alcohols",
+        "function": "Volatile Grease-Cutting & Fast-Drying Solvent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Volatile organic compound; vapor causes eye and upper respiratory tract irritation if sprayed in confined unventilated spaces.",
+        "evidence": "NIOSH Pocket Guide to Chemical Hazards; ECHA REACH Infocard",
+        "note": "Provides rapid streak-free evaporation on glass.",
+        "sourceIds": [
+          "WHO",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Anionic & Non-Ionic Surfactants (<5%)",
+        "function": "Surface Wetting & Dust Removal Agents",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low concentrations present negligible dermal risk in spray-wipe usage.",
+        "evidence": "HERA Assessment",
+        "note": "Lifts light dust and fingerprints.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance",
+        "function": "Aroma Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Airborne volatile allergenicity in sensitized individuals.",
+        "evidence": "IFRA Standards",
+        "note": "Fresh breeze scent.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Colorant (CI 42090)",
+        "function": "Product Tinting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe cosmetic/household blue tint.",
+        "evidence": "CIR Assessment",
+        "note": "Provides distinctive blue appearance.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Turn nozzle to 'Spray' position. Spray directly from 15–20 cm away onto glass, mirror, or laminate surface. Wipe off immediately with a clean, dry lint-free cloth. Do not inhale spray mist.",
+    "alternatives": [
+      "HC-002"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on typical solvent alcohol glass cleaner formulations; full chemical composition not publicly disclosed on consumer front packaging.",
+      "factors": {
+        "ingredientConcernProfile": 16.0,
+        "exposureCharacteristics": 12.0,
+        "frequencyOfUse": 5.0,
+        "evidenceStrength": 12.0,
+        "concernAreas": 4.0
+      },
+      "total": 49.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.9,
+      "band": "Moderate identified concern",
+      "rationale": "Alcohol-based surface spray providing rapid evaporation with moderate inhalation and dermal considerations stemming from aerosolized solvents and fragrances."
+    }
+  },
+  {
+    "id": "FW-001",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "Himalaya",
+    "brandKey": "himalaya",
+    "name": "Purifying Neem Face Wash",
+    "productType": "Rinse-off face wash",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official India product page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://himalayawellness.in/products/himalaya-purifying-neem-face-wash"
+    ],
+    "ingredients": [
+      {
+        "name": "Melia Azadirachta (Neem) Leaf Extract",
+        "function": "Traditional Antibacterial Herbal Botanical",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating botanical extract with established purifying antimicrobial properties.",
+        "evidence": "CIR Botanical Assessment; Ayurvedic Pharmacopoeia",
+        "note": "Key traditional active targeting acne bacteria.",
+        "sourceIds": [
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Curcuma Longa (Turmeric) Rhizome Extract",
+        "function": "Antioxidant & Soothing Botanical Extract",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Biocompatible herbal antioxidant; safe on skin.",
+        "evidence": "CIR Botanical Assessment",
+        "note": "Soothes inflammation and clarifies skin tone.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Ammonium Lauryl Sulfate (ALS)",
+        "function": "Primary Anionic Cleansing Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Anionic surfactant capable of disrupting facial stratum corneum barrier if overused on delicate skin.",
+        "evidence": "CIR Safety Assessment of Ammonium Lauryl Sulfate; ECHA",
+        "note": "Produces light cleansing lather.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Amphoteric Co-Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential contact allergenicity in sensitive skin individuals.",
+        "evidence": "CIR Safety Assessment (2012)",
+        "note": "Buffers sulfate harshness.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential skin irritant in eczema-prone barriers; strictly capped at 1.0% under EU cosmetics regulation.",
+        "evidence": "EU SCCS/1575/16; CIR Safety Assessment (2011)",
+        "note": "Protects aqueous botanical formula from bacterial growth.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Fragrance (Parfum)",
+        "function": "Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Undisclosed cosmetic fragrance mixture; potential contact allergen.",
+        "evidence": "SCCS/1459/11; IFRA Standards",
+        "note": "Delivers herbal green aroma.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Moisten face, apply a small quantity of Purifying Neem Face Wash and gently work up a lather using a circular motion. Wash off and pat dry. Use twice daily for best results.",
+    "alternatives": [
+      "FW-002",
+      "FW-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 16.0,
+        "exposureCharacteristics": 7.0,
+        "frequencyOfUse": 11.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 4.0
+      },
+      "total": 54.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.4,
+      "band": "Moderate identified concern",
+      "rationale": "Popular herbal facial cleanser balancing beneficial neem/turmeric botanicals with conventional anionic surfactants and synthetic preservation, resulting in a moderate concern rating."
+    }
+  },
+  {
+    "id": "FW-002",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "Mamaearth",
+    "brandKey": "mamaearth",
+    "name": "Rice Face Wash with Rice Water & Niacinamide",
+    "productType": "Rinse-off face wash",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official manufacturer page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://mamaearth.in/products/rice-face-wash-with-rice-water-niacinamide-for-glass-skin-100-ml"
+    ],
+    "ingredients": [
+      {
+        "name": "Fermented Rice Water",
+        "function": "Nourishing Prebiotic & Hydrating Botanical",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Exceptional biocompatibility; safe and soothing to facial skin barrier.",
+        "evidence": "CIR Botanical Assessment",
+        "note": "Traditional Asian skincare extract rich in amino acids.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Niacinamide (Vitamin B3)",
+        "function": "Barrier-Restorative & Sebum Regulating Active",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe physiological vitamin; transient mild flushing only at very high unbuffered concentrations.",
+        "evidence": "CIR Safety Assessment of Niacinamide (2005)",
+        "note": "Enhances ceramide synthesis and evens skin tone.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Lauroyl Sarcosinate",
+        "function": "Mild Amino Acid-Derived Anionic Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Significantly gentler than SLS/SLES; preserves cutaneous lipid barrier.",
+        "evidence": "CIR Safety Assessment of Sarcosinate Surfactants",
+        "note": "Sulfate-free cleansing base.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Skin-Identical Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating, physiological skin moisturizer.",
+        "evidence": "CIR; USP Monograph",
+        "note": "Maintains stratum corneum hydration during cleansing.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Cocamidopropyl Betaine",
+        "function": "Amphoteric Co-Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Secondary foam booster; rare contact sensitization from manufacturing intermediates.",
+        "evidence": "CIR Safety Assessment (2012)",
+        "note": "Supports lather creaminess.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe organic buffer maintaining skin physiological pH.",
+        "evidence": "US FDA GRAS Status",
+        "note": "Buffers formula to pH ~5.5.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Apply a small coin-sized amount to wet face and neck. Gently massage with fingertips in a circular motion for 30–60 seconds. Rinse thoroughly with clean water and pat dry.",
+    "alternatives": [
+      "FW-001",
+      "FW-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 7.0,
+        "exposureCharacteristics": 6.0,
+        "frequencyOfUse": 11.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 2.0
+      },
+      "total": 42.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 4.2,
+      "band": "Moderate identified concern",
+      "rationale": "Sulfate-free facial cleanser utilizing gentle sarcosinate surfactants and barrier-supporting niacinamide, demonstrating favorable dermal compatibility."
+    }
+  },
+  {
+    "id": "FW-003",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "The Derma Co",
+    "brandKey": "the-derma-co",
+    "name": "Sali-Cinamide Anti-Acne Face Wash",
+    "productType": "Rinse-off face wash",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official manufacturer page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://thedermaco.com/products/sali-cinamide-anti-acne-face-wash-with-2-salicylic-acid-2-niacinamide-100ml-1"
+    ],
+    "ingredients": [
+      {
+        "name": "Salicylic Acid (2.0%)",
+        "function": "Active Beta Hydroxy Acid (BHA) Keratolytic Exfoliant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Lipid-soluble chemical exfoliant; can cause erythema, skin dryness, peeling, and mild photosensitivity; contra-indicated in aspirin allergy.",
+        "evidence": "US FDA 21 CFR §333 (Topical Acne Monograph); EU SCCS Opinion on Salicylic Acid SCCS/1601/18",
+        "note": "Clinically proven active dissolving sebum plugs in pores.",
+        "sourceIds": [
+          "FDA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Niacinamide (2.0%)",
+        "function": "Anti-Inflammatory & Sebum-Balancing Active",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe physiological active; calms acne redness and reinforces barrier lipids.",
+        "evidence": "CIR Safety Assessment of Niacinamide",
+        "note": "Synergistic partner to salicylic acid.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Lauroyl Sarcosinate & Coco-Glucoside",
+        "function": "Mild Non-Sulfate Surfactant Base",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low dermal irritation; protects skin barrier during chemical exfoliation.",
+        "evidence": "CIR Safety Assessment of Alkyl Glucosides and Sarcosinates",
+        "note": "Gentle sulfate-free lathering complex.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Skin-Identical Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe skin moisturizer offsetting exfoliant dryness.",
+        "evidence": "CIR; USP Monograph",
+        "note": "Maintains barrier hydration.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Synthetic preservative restricted to 1.0% in cosmetics; potential irritant on sensitized skin.",
+        "evidence": "EU SCCS/1575/16; CIR (2011)",
+        "note": "Stabilizes active skincare formula.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Wet face with water. Dispense a small pump, work into a lather, and massage onto face for 1 minute, avoiding contact with eyes. Rinse thoroughly. Always use a broad-spectrum sunscreen during the day.",
+    "alternatives": [
+      "FW-002"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 16.0,
+        "exposureCharacteristics": 7.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 17.0,
+        "concernAreas": 4.5
+      },
+      "total": 54.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 5.5,
+      "band": "Moderate identified concern",
+      "rationale": "Active clinical skincare formulation containing 2% Salicylic Acid. Highly effective for acne vulgaris but requires awareness regarding photosensitivity and potential skin dryness."
+    }
+  },
+  {
+    "id": "FR-001",
+    "category": "Deodorant / Perfume",
+    "brand": "Fogg",
+    "brandKey": "fogg",
+    "name": "Fogg Marco Perfume/Deodorant",
+    "productType": "Fragrance product",
+    "exposureType": "leave-on",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Exact current variant and disclosed ingredients need verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.vini.com/fogg/"
+    ],
+    "ingredients": [
+      {
+        "name": "Ethyl Alcohol (Denatured)",
+        "function": "Volatile Solvent & Quick-Drying Vehicle",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High concentration alcohol (80-85% v/v); strips stratum corneum lipids and causes burning on shaved or micro-abraded underarm skin.",
+        "evidence": "CIR Safety Assessment of Alcohol Denat.; ECHA Dossier",
+        "note": "Liquid fragrance carrier.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Concentrated Olfactory Aroma Compound",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High fragrance loading in leave-on format; recognized leading cause of axillary contact allergy and sensitization.",
+        "evidence": "EU SCCS/1459/11; IFRA Standards",
+        "note": "Proprietary aromatic bouquet.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Diethyl Phthalate (DEP / Fixative Traces)",
+        "function": "Fragrance Stabilizer & Fixative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Phthalate ester stabilizer subject to ongoing scientific and endocrine disruptor screening evaluations in leave-on products.",
+        "evidence": "EU SCCS Opinion on Diethyl Phthalate; WHO/IARC Monograph",
+        "note": "Extends perfume persistence.",
+        "sourceIds": [
+          "SCCS",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Propylene Glycol",
+        "function": "Skin Conditioning Humectant & Solvent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low systemic toxicity; potential irritant only in compromised skin barriers.",
+        "evidence": "CIR Safety Assessment of Propylene Glycol",
+        "note": "Enhances skin adhesion.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Hold can 10–15 cm away from the skin. Spray directly on body and underarms. Avoid spraying on face, eyes, broken or inflamed skin. Highly flammable — keep away from open flames.",
+    "alternatives": [
+      "FR-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score reflecting mass-market alcohol-based fragrance body spray; specific aromatic allergens and fixatives not publicly disclosed on consumer can.",
+      "factors": {
+        "ingredientConcernProfile": 24.0,
+        "exposureCharacteristics": 15.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 12.0,
+        "concernAreas": 6.5
+      },
+      "total": 67.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.8,
+      "band": "Moderate identified concern",
+      "rationale": "Alcohol-rich leave-on personal fragrance featuring concentrated synthetic aromatics, presenting notable dermal sensitization and volatile inhalation considerations."
+    }
+  },
+  {
+    "id": "FR-002",
+    "category": "Deodorant / Perfume",
+    "brand": "Wild Stone",
+    "brandKey": "wild-stone",
+    "name": "Code Titanium",
+    "productType": "Fragrance product",
+    "exposureType": "leave-on",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Exact current variant and disclosed ingredients need verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.wildstone.in"
+    ],
+    "ingredients": [
+      {
+        "name": "Ethyl Alcohol (Denatured 95% v/v)",
+        "function": "Volatile Evaporation Vehicle",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High-proof denatured alcohol causes skin barrier dehydration and irritation upon repeat axillary application.",
+        "evidence": "CIR Safety Assessment; ECHA",
+        "note": "Aerosol solvent vehicle.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Fragrance (Parfum)",
+        "function": "Concentrated Perfume Essence",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "May contain common EU-regulated fragrance allergens (limonene, linalool, coumarin) triggering contact allergy.",
+        "evidence": "EU SCCS/1459/11; IFRA 50th Amendment",
+        "note": "Woody-amber masculine fragrance note.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Propellant Gas (Butane / Isobutane / Propane)",
+        "function": "Compressed Aerosol Delivery Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Volatile liquefied petroleum propellant; inhalation hazard in poorly ventilated bathrooms; highly flammable.",
+        "evidence": "NIOSH Pocket Guide to Chemical Hazards; ECHA",
+        "note": "Pressurized delivery propellant.",
+        "sourceIds": [
+          "WHO",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Propylene Glycol",
+        "function": "Humectant & Emollient",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe cosmetic solvent; low hazard at aerosol concentrations.",
+        "evidence": "CIR Assessment",
+        "note": "Skin conditioning agent.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "BHT (Butylated Hydroxytoluene)",
+        "function": "Antioxidant Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low dermal toxicity at authorized cosmetic antioxidant levels (<0.1%).",
+        "evidence": "CIR Safety Assessment of BHT",
+        "note": "Prevents fragrance oxidation.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Shake well before use. Hold can upright, 15 cm from underarm/body, and spray. Do not spray near eyes, broken skin, or fire.",
+    "alternatives": [
+      "FR-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on typical compressed aerosol body spray composition; exact propellant ratio and individual fragrance allergens undisclosed.",
+      "factors": {
+        "ingredientConcernProfile": 24.0,
+        "exposureCharacteristics": 15.0,
+        "frequencyOfUse": 10.0,
+        "evidenceStrength": 12.0,
+        "concernAreas": 6.5
+      },
+      "total": 67.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.8,
+      "band": "Moderate identified concern",
+      "rationale": "Aerosolized fragrance spray combining denatured alcohol and aromatic essences, evaluated as moderate concern due to continuous leave-on contact and volatile inhalation."
+    }
+  },
+  {
+    "id": "FR-003",
+    "category": "Deodorant / Perfume",
+    "brand": "BellaVita",
+    "brandKey": "bellavita",
+    "name": "CEO Man Eau de Parfum",
+    "productType": "Fragrance product",
+    "exposureType": "leave-on",
+    "verificationStatus": "partial",
+    "dataConfidence": "medium",
+    "verificationNote": "Current manufacturer page identifies product and publishes a disclosed ingredient list; fragrance composition may be proprietary",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://bellavitaorganic.com/products/ceo-man-perfume-100ml-engraving"
+    ],
+    "ingredients": [
+      {
+        "name": "Alcohol Denat.",
+        "function": "Fine Fragrance Solvent Carrier",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Volatile solvent carrier; temporary skin barrier degreasing at application sites.",
+        "evidence": "CIR Safety Assessment; ECHA",
+        "note": "Primary solvent in Eau de Parfum formulations.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Fragrance (Parfum / Essential Oils Blend)",
+        "function": "Concentrated Perfume Oil Composition",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Concentrated aromatic oils (15-20%); high potential for allergic contact sensitization under daily leave-on pulse point exposure.",
+        "evidence": "IFRA Standards 50th Amendment; EU SCCS/1459/11",
+        "note": "Top, heart, and base perfume notes.",
+        "sourceIds": [
+          "IFRA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Aqua (Demineralized Water)",
+        "function": "Diluent & Solvent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Completely benign solvent.",
+        "evidence": "USP Monograph",
+        "note": "Purified water base.",
+        "sourceIds": [
+          "FDA"
+        ]
+      },
+      {
+        "name": "Propylene Glycol",
+        "function": "Fixative Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe cosmetic carrier.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Enhances perfume fixation on pulse points.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "BHT",
+        "function": "Antioxidant Stabilizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low dermal hazard at trace cosmetic levels.",
+        "evidence": "CIR Assessment",
+        "note": "Protects delicate fragrance notes from UV degradation.",
+        "sourceIds": [
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Spray directly onto pulse points such as wrists, neck, and collarbone from a distance of 10–15 cm. Allow to settle naturally on the skin without rubbing.",
+    "alternatives": [
+      "FR-001",
+      "FR-002"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 22.0,
+        "exposureCharacteristics": 14.0,
+        "frequencyOfUse": 9.0,
+        "evidenceStrength": 14.0,
+        "concernAreas": 5.5
+      },
+      "total": 64.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.5,
+      "band": "Moderate identified concern",
+      "rationale": "Concentrated Eau de Parfum formulated for sustained olfactory sillage. Poses moderate identified concern relating to leave-on aromatic allergen burden."
+    }
+  },
+  {
+    "id": "LD-001",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "Surf Excel",
+    "brandKey": "surf-excel",
+    "name": "Quick Wash Detergent Powder",
+    "productType": "Laundry detergent",
+    "exposureType": "laundry",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Current India label/variant needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.surfexcel.in"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Carbonate (Soda Ash Builder)",
+        "function": "Alkaline Water Softening Builder & pH Regulator",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High alkaline builder; known eye irritant and can cause severe epidermal lipid stripping / hand dryness during manual soaking.",
+        "evidence": "OECD SIDS Initial Assessment for Sodium Carbonate; ECHA Dossier EC 207-838-8",
+        "note": "Precipitates hardness minerals and boosts saponification of fatty soils.",
+        "sourceIds": [
+          "OECD",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "Primary Anionic Cleansing Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Recognized skin and eye irritant upon concentrated or prolonged dermal contact; toxic to aquatic organisms.",
+        "evidence": "HERA Risk Assessment for LAS in Household Detergents; US EPA Safer Choice",
+        "note": "Workhorse synthetic detergent surfactant.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Protease & Amylase Enzymes",
+        "function": "Biological Protein & Starch Stain Removers",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Biological enzyme proteins; known occupational and household respiratory sensitizers if aerosolized dust is inhaled.",
+        "evidence": "HERA Assessment of Enzymes in Detergents; ECHA",
+        "note": "Breaks down stubborn food and protein stains at low wash temperatures.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Optical Brighteners (Fluorescent Whitening Agents)",
+        "function": "Fabric Brightening & Fluorescing Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Stilbene fluorescent dyes; potential photosensitizers in sensitive skin; aquatic persistence considerations.",
+        "evidence": "HERA Environmental & Human Safety Assessment of FWA-5",
+        "note": "Absorbs UV light and re-emits blue light to make whites appear brighter.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance",
+        "function": "Laundry Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential cause of residual textile contact dermatitis in sensitive individuals.",
+        "evidence": "IFRA Standards; SCCS",
+        "note": "Imparts lingering clean fragrance on fabrics.",
+        "sourceIds": [
+          "IFRA",
+          "SCCS"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Hand wash: Dissolve 1 scoop (approx. 30g) in 10 liters of water before soaking clothes for 30 minutes. Rinse thoroughly. Machine wash: Add 1–2 scoops depending on soil level. Wear protective rubber gloves if washing by hand with sensitive skin.",
+    "alternatives": [
+      "LD-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on typical heavy-duty enzyme powder laundry detergent specifications; consumer package does not list full quantitative chemical breakdown.",
+      "factors": {
+        "ingredientConcernProfile": 26.0,
+        "exposureCharacteristics": 12.0,
+        "frequencyOfUse": 7.0,
+        "evidenceStrength": 13.0,
+        "concernAreas": 7.0
+      },
+      "total": 65.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.5,
+      "band": "Moderate identified concern",
+      "rationale": "Enzymatic powder detergent with strong alkaline builders and synthetic surfactants, presenting significant dermal degreasing and environmental considerations."
+    }
+  },
+  {
+    "id": "LD-002",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "Rin",
+    "brandKey": "rin",
+    "name": "Rin Detergent Bar",
+    "productType": "Laundry soap/bar",
+    "exposureType": "laundry",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Current India label/variant needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.hul.co.in/brands/home-care/rin/"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Carbonate & Alkaline Builders",
+        "function": "Alkaline Cleaning & Builder Complex",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High alkaline builder salts; direct manual friction causes rapid skin lipid stripping and irritant contact hand dermatitis.",
+        "evidence": "OECD SIDS for Sodium Carbonate; ECHA",
+        "note": "Alkaline saponifying builders.",
+        "sourceIds": [
+          "OECD",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "Primary Synthetic Cleaning Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Direct dermal contact during manual clothes scrubbing causes barrier disruption and hand eczema in frequent users.",
+        "evidence": "HERA Risk Assessment for LAS; EPA",
+        "note": "Primary stain-removing surfactant active.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Calcium Carbonate & Mineral Fillers",
+        "function": "Abrasive Scouring Mineral & Bar Structurant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Inert mineral powder providing mechanical soil scrubbing; non-toxic.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Mechanical abrasion mineral.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Optical Brighteners",
+        "function": "Fluorescent Whitening Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential textile photo-allergy and environmental persistence.",
+        "evidence": "HERA Assessment",
+        "note": "Fabric brightening dye.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Perfume",
+        "function": "Fragrance Aroma",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Synthetic fragrance mixture; contact allergen in manual washing.",
+        "evidence": "IFRA Standards",
+        "note": "Fresh lemon fragrance.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Wet soiled fabric, rub the detergent bar directly onto collars, cuffs, and stained areas. Scrub gently by hand or with brush, then rinse thoroughly with water. Rinse hands well with clean water after use.",
+    "alternatives": [
+      "LD-001",
+      "LD-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score reflecting direct-contact laundry bar composition; packaging lacks comprehensive INCI ingredient enumeration.",
+      "factors": {
+        "ingredientConcernProfile": 27.0,
+        "exposureCharacteristics": 14.0,
+        "frequencyOfUse": 7.0,
+        "evidenceStrength": 13.0,
+        "concernAreas": 7.5
+      },
+      "total": 68.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.9,
+      "band": "Moderate identified concern",
+      "rationale": "Solid laundry bar designed for direct manual scrubbing. High alkalinity and surfactant concentrations create pronounced risk of hand barrier degreasing and irritant dermatitis."
+    }
+  },
+  {
+    "id": "LD-003",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "Tide",
+    "brandKey": "tide",
+    "name": "Plus Double Power Detergent Powder",
+    "productType": "Laundry detergent",
+    "exposureType": "laundry",
+    "verificationStatus": "partial",
+    "dataConfidence": "medium",
+    "verificationNote": "Official India product page confirms current range; exact ingredient disclosure needs label verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.tide.in/en-in/shop/by-type/washing-powder/tide-plus-double-power-lemon-and-mint"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Carbonate",
+        "function": "Alkaline Water Softener & Builder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Alkaline builder; severe eye irritant and causes hand dryness during manual washing.",
+        "evidence": "ECHA Dossier; OECD SIDS",
+        "note": "Boosts wash liquor pH to saponify oily stains.",
+        "sourceIds": [
+          "ECHA",
+          "OECD"
+        ]
+      },
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "Primary Anionic Detergent Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Primary surfactant; strips natural dermal lipids upon direct skin immersion; aquatic toxicity.",
+        "evidence": "HERA Assessment of LAS; US EPA Safer Choice",
+        "note": "Main cleaning active.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Silicate & Zeolite",
+        "function": "Corrosion Inhibitor & Detergent Builder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low biological toxicity; prevents washing machine metal corrosion and binds calcium ions.",
+        "evidence": "HERA Assessment of Zeolites and Silicates",
+        "note": "Protects washer components and softens water.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Optical Brighteners",
+        "function": "Fluorescent Whitening Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Stilbene fluorescent dye; potential skin photo-sensitizer; persistent in aquatic ecosystems.",
+        "evidence": "HERA Assessment",
+        "note": "Enhances fabric optical whiteness.",
+        "sourceIds": [
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Lemon & Mint Perfume",
+        "function": "Fragrance Scenting Blend",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Synthetic fragrance blend; potential textile contact allergen.",
+        "evidence": "IFRA Standards",
+        "note": "Delivers dual lemon-mint freshness.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Add 1 scoop for regular loads in bucket or washing machine. Dissolve powder in water before introducing laundry. Rinse clothes thoroughly. Avoid direct powder contact with sensitive or broken skin.",
+    "alternatives": [
+      "LD-001"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on Tide India Double Power formulation profile; full chemical percentage breakdown protected as trade secret.",
+      "factors": {
+        "ingredientConcernProfile": 25.0,
+        "exposureCharacteristics": 12.0,
+        "frequencyOfUse": 7.0,
+        "evidenceStrength": 14.0,
+        "concernAreas": 6.5
+      },
+      "total": 64.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.5,
+      "band": "Moderate identified concern",
+      "rationale": "High-performance laundry detergent with alkaline builder and anionic surfactant system, displaying moderate identified concern under standard household usage."
+    }
+  },
+  {
+    "id": "DW-001",
+    "category": "Dishwashing / Utensil Cleaning",
+    "brand": "Vim",
+    "brandKey": "vim",
+    "name": "Vim Dishwash Liquid",
+    "productType": "Dishwashing liquid",
+    "exposureType": "dishwashing",
+    "verificationStatus": "verification_required",
+    "dataConfidence": "low",
+    "verificationNote": "Exact current variant/ingredient label needs final verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.hul.co.in/brands/home-care/vim/"
+    ],
+    "ingredients": [
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "Primary Grease-Cutting Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Concentrated degreasing surfactant; strips skin lipid barrier during repetitive daily un-gloved hand washing.",
+        "evidence": "HERA Assessment; US EPA Safer Choice",
+        "note": "Dissolves tough oily food residues.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Laureth Sulfate (SLES)",
+        "function": "Foam-Boosting Co-Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Eye and skin irritant; enhances surfactant penetration through stratum corneum.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Maintains persistent dishwashing foam.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Synthetic Lemon Fragrance",
+        "function": "Odor-Neutralizing Citrus Aroma",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Concentrated citrus aromatics (limonene/citral); potential contact allergen.",
+        "evidence": "IFRA Standards; SCCS",
+        "note": "Neutralizes strong food odors on utensils.",
+        "sourceIds": [
+          "IFRA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Preservative System (Isothiazolinones / Phenoxyethanol)",
+        "function": "Aqueous Formula Antimicrobial Stabilizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Preservatives can trigger contact allergy and irritant hand dermatitis on compromised skin barriers.",
+        "evidence": "EU SCCS Opinions on Cosmetic and Household Preservatives",
+        "note": "Prevents microbial spoilage in dilute storage.",
+        "sourceIds": [
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Magnesium Sulfate",
+        "function": "Viscosity Modifier",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Benign physiological salt; safe in cleaning products.",
+        "evidence": "US FDA GRAS Status",
+        "note": "Builds rich gel texture.",
+        "sourceIds": [
+          "FDA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Take 1 teaspoon (approx. 4ml) of Vim gel in a bowl. Mix with a small bowl of water (approx. 40ml). Dip scrubber into the solution and wash utensils. Rinse thoroughly with clean running water.",
+    "alternatives": [
+      "DW-002",
+      "DW-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on commercial concentrated dishwashing liquid benchmarks; regional variant preservative system requires packaging audit.",
+      "factors": {
+        "ingredientConcernProfile": 23.0,
+        "exposureCharacteristics": 11.0,
+        "frequencyOfUse": 12.0,
+        "evidenceStrength": 13.0,
+        "concernAreas": 6.0
+      },
+      "total": 65.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.5,
+      "band": "Moderate identified concern",
+      "rationale": "Concentrated surfactant dishwashing liquid designed for rapid grease cutting. High daily frequency and surfactant concentration create moderate concern for hand barrier stripping."
+    }
+  },
+  {
+    "id": "DW-002",
+    "category": "Dishwashing / Utensil Cleaning",
+    "brand": "Patanjali",
+    "brandKey": "patanjali",
+    "name": "Super Dishwash Bar",
+    "productType": "Dishwashing bar",
+    "exposureType": "dishwashing",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Official Patanjali product page",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.patanjaliayurved.net/product/herbal-home-care/dishwash-bar-and-gel/super-dishwash-bar/4416"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Carbonate & Alkaline Builders",
+        "function": "Degreasing Alkaline Salt Complex",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High alkaline builder; causes skin barrier degreasing and irritant contact hand dryness with repetitive un-gloved contact.",
+        "evidence": "OECD SIDS for Sodium Carbonate; ECHA",
+        "note": "Saponifies cooked grease and softens water.",
+        "sourceIds": [
+          "OECD",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "Primary Synthetic Cleansing Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Effective degreasing surfactant; strips cutaneous lipid barrier on prolonged direct friction.",
+        "evidence": "HERA Assessment; EPA",
+        "note": "Workhorse detergent surfactant.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Calcium Carbonate & Wood Ash",
+        "function": "Natural Mineral Scouring Abrasives",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Inert mechanical scouring minerals; non-toxic to human health.",
+        "evidence": "CIR Safety Assessment",
+        "note": "Provides mechanical scouring power for burnt pans.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Azadirachta Indica (Neem) Extract",
+        "function": "Traditional Herbal Antimicrobial Botanical",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe traditional plant botanical with natural antibacterial qualities.",
+        "evidence": "CIR Botanical Assessment",
+        "note": "Herbal additive for hygienic dish cleaning.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Lemon Flavor / Fragrance",
+        "function": "Citrus Deodorizing Aroma",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Low concern at mild formulation levels.",
+        "evidence": "IFRA Standards",
+        "note": "Imparts clean citrus scent to washed utensils.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Wet the scrubber or sponge with water. Swipe gently across the Patanjali dishwash bar. Scrub greasy pots and utensils, then rinse thoroughly under clean running water.",
+    "alternatives": [
+      "DW-001",
+      "DW-003"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": false,
+      "factors": {
+        "ingredientConcernProfile": 20.0,
+        "exposureCharacteristics": 11.0,
+        "frequencyOfUse": 12.0,
+        "evidenceStrength": 16.0,
+        "concernAreas": 5.5
+      },
+      "total": 64.5,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.5,
+      "band": "Moderate identified concern",
+      "rationale": "Solid scouring dishwash bar incorporating natural wood ash, neem, and synthetic anionic builders. Demonstrates effective grease removal alongside moderate hand skin barrier degreasing."
+    }
+  },
+  {
+    "id": "DW-003",
+    "category": "Dishwashing / Utensil Cleaning",
+    "brand": "Xpert",
+    "brandKey": "xpert",
+    "name": "Ultra Dishwash Gel",
+    "productType": "Dishwashing gel",
+    "exposureType": "dishwashing",
+    "verificationStatus": "partial",
+    "dataConfidence": "medium",
+    "verificationNote": "Manufacturer site confirms product; full current ingredient label needs verification",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "https://www.xpertdishwash.com/"
+    ],
+    "ingredients": [
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS) & SLES Surfactant Blend",
+        "function": "Degreasing & Foaming Surfactant Complex",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "High surfactant concentration can strip epidermal ceramides with repeated daily utensil washing.",
+        "evidence": "HERA Assessment; CIR",
+        "note": "Cuts grease and produces long-lasting foam.",
+        "sourceIds": [
+          "EPA",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Glycerin",
+        "function": "Skin-Conditioning Humectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Helps counteract surfactant-induced hand dryness.",
+        "evidence": "CIR; USP Monograph",
+        "note": "Skin conditioning additive.",
+        "sourceIds": [
+          "CIR"
+        ]
+      },
+      {
+        "name": "Lime / Citrus Aroma",
+        "function": "Deodorizing Scenting Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential contact allergens in sensitized individuals.",
+        "evidence": "IFRA Standards",
+        "note": "Masks persistent food odors.",
+        "sourceIds": [
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Preservative & Colorant System",
+        "function": "Formulation Shelf-Life Stabilizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Cosmetic/household preservatives can trigger contact dermatitis.",
+        "evidence": "SCCS Opinions",
+        "note": "Protects aqueous gel from microbial contamination.",
+        "sourceIds": [
+          "SCCS"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": "Squeeze a few drops onto a wet sponge, work into a rich lather, scrub dishes, and rinse thoroughly with clean water.",
+    "alternatives": [
+      "DW-001",
+      "DW-002"
+    ],
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "isProvisional": true,
+      "limitation": "Provisional score based on manufacturer website product data; full preservative and fragrance declaration pending container label audit.",
+      "factors": {
+        "ingredientConcernProfile": 21.0,
+        "exposureCharacteristics": 11.0,
+        "frequencyOfUse": 12.0,
+        "evidenceStrength": 13.5,
+        "concernAreas": 5.5
+      },
+      "total": 63.0,
+      "maxPossiblePoints": 100,
+      "displayedScore": 6.3,
+      "band": "Moderate identified concern",
+      "rationale": "Formulated dishwashing gel with added skin-conditioning glycerin to moderate surfactant stripping during daily utensil washing."
+    }
+  }
+]

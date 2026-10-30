@@ -1,0 +1,583 @@
+import json
+import os
+
+survey_data = {
+  "schemaVersion": "1.0",
+  "status": "collected",
+  "respondents": 53,
+  "selectionMode": "single",
+  "collectedOn": "2025-02-15",
+  "description": "Aggregated consumer chemical literacy and brand usage findings from 53 student respondents. Each question captured the most frequently used brand per category.",
+  "categories": [
+    {
+      "category": "Shampoo",
+      "categoryKey": "shampoo",
+      "respondents": 53,
+      "otherCount": 14,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Other",
+          "brandKey": "other",
+          "count": 14,
+          "percentage": 26.4,
+          "productId": None,
+          "productIds": [],
+          "isOther": True,
+          "otherResponses": "Aggregated unlisted/artisan brand mentions"
+        },
+        {
+          "brand": "Dove",
+          "brandKey": "dove",
+          "count": 14,
+          "percentage": 26.4,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Head & Shoulders",
+          "brandKey": "head-and-shoulders",
+          "count": 10,
+          "percentage": 18.9,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Sunsilk",
+          "brandKey": "sunsilk",
+          "count": 7,
+          "percentage": 13.2,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Tresemme",
+          "brandKey": "tresemme",
+          "count": 3,
+          "percentage": 5.7,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Clinic Plus",
+          "brandKey": "clinic-plus",
+          "count": 3,
+          "percentage": 5.7,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Mamaearth",
+          "brandKey": "mamaearth",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "Body Wash / Bar Soap",
+      "categoryKey": "body-wash-bar-soap",
+      "respondents": 53,
+      "otherCount": 13,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Other",
+          "brandKey": "other",
+          "count": 13,
+          "percentage": 24.5,
+          "productId": None,
+          "productIds": [],
+          "isOther": True,
+          "otherResponses": "Aggregated unlisted soap/cleanser mentions"
+        },
+        {
+          "brand": "Dove",
+          "brandKey": "dove",
+          "count": 12,
+          "percentage": 22.6,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Dettol",
+          "brandKey": "dettol",
+          "count": 11,
+          "percentage": 20.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Pears",
+          "brandKey": "pears",
+          "count": 8,
+          "percentage": 15.1,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Lux",
+          "brandKey": "lux",
+          "count": 7,
+          "percentage": 13.2,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Santoor",
+          "brandKey": "santoor",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "Toothpaste",
+      "categoryKey": "toothpaste",
+      "respondents": 53,
+      "otherCount": 3,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Colgate",
+          "brandKey": "colgate",
+          "count": 27,
+          "percentage": 50.9,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Sensodyne",
+          "brandKey": "sensodyne",
+          "count": 9,
+          "percentage": 17.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Patanjali Dant Kanti",
+          "brandKey": "patanjali-dant-kanti",
+          "count": 6,
+          "percentage": 11.3,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Dabur Red",
+          "brandKey": "dabur-red",
+          "count": 5,
+          "percentage": 9.4,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Other",
+          "brandKey": "other",
+          "count": 3,
+          "percentage": 5.7,
+          "productId": None,
+          "productIds": [],
+          "isOther": True,
+          "otherResponses": "Alternative dental pastes and tooth powders"
+        },
+        {
+          "brand": "Oral-B",
+          "brandKey": "oral-b",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Pepsodent",
+          "brandKey": "pepsodent",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "House Cleaning Products",
+      "categoryKey": "house-cleaning-products",
+      "respondents": 53,
+      "otherCount": 12,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Harpic",
+          "brandKey": "harpic",
+          "count": 24,
+          "percentage": 45.3,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Other",
+          "brandKey": "other",
+          "count": 12,
+          "percentage": 22.6,
+          "productId": None,
+          "productIds": [],
+          "isOther": True,
+          "otherResponses": "Multi-surface sprays and disinfectant concentrates"
+        },
+        {
+          "brand": "Lizol",
+          "brandKey": "lizol",
+          "count": 11,
+          "percentage": 20.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Colin",
+          "brandKey": "colin",
+          "count": 6,
+          "percentage": 11.3,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "Facial Cleanser / Face Wash",
+      "categoryKey": "facial-cleanser-face-wash",
+      "respondents": 53,
+      "otherCount": 0,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Himalaya",
+          "brandKey": "himalaya",
+          "count": 13,
+          "percentage": 24.5,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Mamaearth",
+          "brandKey": "mamaearth",
+          "count": 13,
+          "percentage": 24.5,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Cetaphil",
+          "brandKey": "cetaphil",
+          "count": 7,
+          "percentage": 13.2,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Dot and Key",
+          "brandKey": "dot-and-key",
+          "count": 6,
+          "percentage": 11.3,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Derma Co",
+          "brandKey": "derma-co",
+          "count": 5,
+          "percentage": 9.4,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Pilgrim",
+          "brandKey": "pilgrim",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Garnier",
+          "brandKey": "garnier",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "La Mer",
+          "brandKey": "la-mer",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "I don't use facewash",
+          "brandKey": "non-brand-no-facewash",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "User indicated non-usage of face wash"
+        },
+        {
+          "brand": "Option 7",
+          "brandKey": "option-7",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "Unspecified survey option selection"
+        },
+        {
+          "brand": "Not face wash, only Cinthol soap",
+          "brandKey": "cinthol-soap-substitute",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "Substituted bar soap for facial wash"
+        },
+        {
+          "brand": "NA",
+          "brandKey": "na",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "No answer provided"
+        }
+      ]
+    },
+    {
+      "category": "Hand Wash",
+      "categoryKey": "hand-wash",
+      "respondents": 50,
+      "otherCount": 0,
+      "denominatorNote": "50 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Dettol",
+          "brandKey": "dettol",
+          "count": 43,
+          "percentage": 86.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Santoor",
+          "brandKey": "santoor",
+          "count": 3,
+          "percentage": 6.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Himalaya",
+          "brandKey": "himalaya",
+          "count": 2,
+          "percentage": 4.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Lifebuoy",
+          "brandKey": "lifebuoy",
+          "count": 1,
+          "percentage": 2.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Soap",
+          "brandKey": "soap",
+          "count": 1,
+          "percentage": 2.0,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "Generic bar soap used for handwashing"
+        }
+      ]
+    },
+    {
+      "category": "Deodorant / Perfume",
+      "categoryKey": "deodorant-perfume",
+      "respondents": 53,
+      "otherCount": 25,
+      "denominatorNote": "53 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Other",
+          "brandKey": "other",
+          "count": 25,
+          "percentage": 47.2,
+          "productId": None,
+          "productIds": [],
+          "isOther": True,
+          "otherResponses": "Diverse range of personal fragrances, attars, and body sprays"
+        },
+        {
+          "brand": "Bellavita",
+          "brandKey": "bellavita",
+          "count": 14,
+          "percentage": 26.4,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Fog",
+          "brandKey": "fog",
+          "count": 6,
+          "percentage": 11.3,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Wildstone",
+          "brandKey": "wildstone",
+          "count": 5,
+          "percentage": 9.4,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Prada",
+          "brandKey": "prada",
+          "count": 2,
+          "percentage": 3.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Burbary",
+          "brandKey": "burbary",
+          "count": 1,
+          "percentage": 1.9,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "Detergent / Cloth Washing Soap",
+      "categoryKey": "detergent-cloth-washing-soap",
+      "respondents": 51,
+      "otherCount": 0,
+      "denominatorNote": "51 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Surf Excel",
+          "brandKey": "surf-excel",
+          "count": 29,
+          "percentage": 56.9,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Rin Bar",
+          "brandKey": "rin-bar",
+          "count": 10,
+          "percentage": 19.6,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Tide",
+          "brandKey": "tide",
+          "count": 5,
+          "percentage": 9.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Ghadi",
+          "brandKey": "ghadi",
+          "count": 5,
+          "percentage": 9.8,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Henko Matic Lintelligent",
+          "brandKey": "henko-matic-lintelligent",
+          "count": 1,
+          "percentage": 2.0,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Nirma",
+          "brandKey": "nirma",
+          "count": 1,
+          "percentage": 2.0,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "category": "Dishwashing / Utensil Cleaning",
+      "categoryKey": "dishwashing-utensil-cleaning",
+      "respondents": 11,
+      "otherCount": 0,
+      "denominatorNote": "11 respondents answered this category",
+      "brands": [
+        {
+          "brand": "Vim",
+          "brandKey": "vim",
+          "count": 6,
+          "percentage": 54.5,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Patanjali",
+          "brandKey": "patanjali",
+          "count": 3,
+          "percentage": 27.3,
+          "productId": None,
+          "productIds": []
+        },
+        {
+          "brand": "Normal Liquid",
+          "brandKey": "normal-liquid",
+          "count": 1,
+          "percentage": 9.1,
+          "productId": None,
+          "productIds": [],
+          "isNonBrand": True,
+          "otherResponses": "Generic unbranded dishwashing liquid"
+        },
+        {
+          "brand": "EXO",
+          "brandKey": "exo",
+          "count": 1,
+          "percentage": 9.1,
+          "productId": None,
+          "productIds": []
+        }
+      ]
+    }
+  ],
+  "observations": [
+    "High Market Concentration in Hand Hygiene: Hand Wash displayed the highest single-brand market share across all categories, with Dettol selected by 86.0% (43 of 50) respondents.",
+    "Category Response Variance & Skip Rate: Dishwashing / Utensil Cleaning had an answer rate of 11 respondents (out of 53 total survey participants), reflecting typical student campus living where individual dishwashing supplies are less routinely purchased.",
+    "Fragrance & Personal Care Fragmentation: Deodorant / Perfume had the highest proportion of write-ins and unlisted selections ('Other' at 47.2%), followed by Shampoo (26.4% 'Other') and Body Wash (24.5% 'Other').",
+    "Dominance of Established Household Formulations: Categories such as Toothpaste (Colgate at 50.9%), Household Cleaner (Harpic at 45.3%), and Laundry Detergent (Surf Excel at 56.9%) were heavily centered around legacy market leaders."
+  ]
+}
+
+with open('public/data/survey.json', 'w', encoding='utf-8') as f:
+    json.dump(survey_data, f, indent=2, ensure_ascii=False)
+
+print("Successfully generated public/data/survey.json")

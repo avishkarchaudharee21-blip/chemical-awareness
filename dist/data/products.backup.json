@@ -1,0 +1,2833 @@
+[
+  {
+    "id": "clarifying-citrus-shampoo",
+    "category": "Shampoo / Conditioner",
+    "brand": "AuraCare Botanicals",
+    "brandKey": "auracare-botanicals",
+    "name": "Clarifying Citrus Volumizing Shampoo",
+    "productType": "Shampoo",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 19.5,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 15,
+        "concernAreas": 4.5
+      },
+      "points": {
+        "ingredientConcernProfile": 19.5,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 15,
+        "concernAreas": 4.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 51.0,
+      "displayedScore": 5.1,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 5.1/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 51.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Contains anionic SLS surfactant and synthetic fragrance in a short-contact rinse-off formulation, presenting moderate dermal barrier and fragrance sensitivity considerations under regular use."
+    },
+    "alternatives": [
+      "botanic-gentle-scalp-shampoo"
+    ]
+  },
+  {
+    "id": "botanic-gentle-scalp-shampoo",
+    "category": "Shampoo / Conditioner",
+    "brand": "EcoPure Organics",
+    "brandKey": "ecopure-organics",
+    "name": "Botanic Balance Sulfate-Free Scalp Shampoo",
+    "productType": "Shampoo",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "function": "Organic Acid Salt Food & Cosmetic Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Widely used preservation agent active in acidic media (pH < 4.5). Potential formation of trace benzene if combined with ascorbic acid (Vitamin C) under elevated heat and UV light.",
+        "evidence": "US FDA 21 CFR \u00a7184.1733 (GRAS Status); WHO Concise International Chemical Assessment Document 26: Benzoic Acid and Sodium Benzoate; CIR Safety Assessment of Benzoic Acid and Sodium Benzoate (2017)",
+        "note": "Inhibits mold, yeast, and bacterial spoilage in drinks, jams, and natural shampoos.",
+        "sourceIds": [
+          "FDA",
+          "WHO",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 5,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 13,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 5,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 13,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 29.5,
+      "displayedScore": 3.0,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.0/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 29.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Formulated with ultra-mild non-ionic surfactants and skin-identical humectants with negligible irritation potential in rinse-off applications."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "antibac-shield-hand-soap",
+    "category": "Body Wash / Bar Soap",
+    "brand": "DermGuard Professional",
+    "brandKey": "dermguard-professional",
+    "name": "ShieldCare Antibacterial Liquid Hand Wash",
+    "productType": "Soap",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Triclosan",
+        "function": "Synthetic Chlorinated Antimicrobial Biocide",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Banned in consumer hand soaps by the US FDA in 2016 due to lack of demonstrated efficacy over plain soap and water. Suspected endocrine disruptor impacting thyroid hormone homeostasis. Bioaccumulative in aquatic environments and implicated in bacterial antibiotic cross-resistance.",
+        "evidence": "US FDA Final Rule on Safety and Effectiveness of Consumer Antiseptics (2016); European Commission SCCS Opinion on Triclosan (SCCS/1414/11); Endocrine Society Scientific Statement on Endocrine-Disrupting Chemicals (2015)",
+        "note": "Historically used in antibacterial handwashes and anti-gingivitis toothpastes.",
+        "sourceIds": [
+          "FDA",
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 28,
+        "exposureCharacteristics": 8,
+        "frequencyOfUse": 13,
+        "evidenceStrength": 17.5,
+        "concernAreas": 8
+      },
+      "points": {
+        "ingredientConcernProfile": 28,
+        "exposureCharacteristics": 8,
+        "frequencyOfUse": 13,
+        "evidenceStrength": 17.5,
+        "concernAreas": 8
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 74.5,
+      "displayedScore": 7.5,
+      "band": "Higher identified concern",
+      "badgeClass": "badge-high",
+      "why": "Score of 7.5/10.0 (Higher identified concern) determined by 5 evidence-based educational scoring factors totaling 74.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Contains chlorinated antimicrobial biocide (Triclosan) and anionic surfactants with high cumulative daily exposure and documented environmental/endocrine review."
+    },
+    "alternatives": [
+      "pure-castile-olive-soap"
+    ]
+  },
+  {
+    "id": "pure-castile-olive-soap",
+    "category": "Body Wash / Bar Soap",
+    "brand": "Verdant Hearth Goods",
+    "brandKey": "verdant-hearth-goods",
+    "name": "Traditional Castile Pure Olive Bar Soap",
+    "productType": "Soap",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Olivate (Saponified Olive Oil)",
+        "function": "Traditional Natural Botanical Soap Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild, biocompatible, non-synthetic true soap. Higher pH (9-10) characteristic of authentic traditional saponified soaps.",
+        "evidence": "CIR Safety Assessment of Plant-Derived Fatty Acid Salts; European Pharmacopoeia (Ph. Eur.) Castile Soap Standards; ECHA EC 263-097-0 Profile",
+        "note": "Crafted by saponifying pure extra virgin olive oil.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Hydroxide (Lye / Saponification Agent)",
+        "function": "Bar Soap Saponification Agent & Alkaline pH Adjuster",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Corrosive in raw manufacturing state. Fully consumed during cold-process saponification in quality finished bar soaps (zero free lye).",
+        "evidence": "CIR Safety Assessment of Sodium Hydroxide in Cosmetics; ECHA EC 215-185-5 Dossier; US Pharmacopeia (USP-NF) Compendial Standard",
+        "note": "Reacts with fatty triglycerides to yield true soap and natural glycerin.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 12,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 12,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 33.0,
+      "displayedScore": 3.3,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.3/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 33.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Simple saponified vegetable oil formulation free of synthetic biocides, sulfates, or artificial fragrances with low toxicological concern."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "maxfresh-whitening-toothpaste",
+    "category": "Toothpaste",
+    "brand": "DentaPro Clinical",
+    "brandKey": "dentapro-clinical",
+    "name": "MaxFresh Arctic Blast Whitening Toothpaste",
+    "productType": "Toothpaste",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sodium Fluoride",
+        "function": "Enamel Remineralizer & Anti-Caries Active",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Clinically proven anti-caries agent when spit out properly (standard 1000-1450 ppm F). Excessive swallowing by toddlers under 6 can cause dental fluorosis; poison warning mandatory on US packaging.",
+        "evidence": "American Dental Association (ADA) Council on Scientific Affairs Fluoride Guidelines; Cochrane Systematic Review on Fluoride Toothpastes for Preventing Dental Caries (2019); US FDA 21 CFR \u00a7355 Anticaries Drug Products for Over-the-Counter Human Use",
+        "note": "Incorporates fluoride into tooth enamel creating acid-resistant fluorapatite.",
+        "sourceIds": [
+          "ADA",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Hydrated Silica",
+        "function": "Mild Dental Abrasive & Cleaning Polish",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe non-reactive physical polishing agent for plaque removal. Does not scratch dental enamel when formulated with low Relative Dentin Abrasivity (RDA < 150).",
+        "evidence": "CIR Safety Assessment of Silica and Silicate Ingredients (2019); ADA Laboratory Testing Standards for Toothpaste RDA; US FDA 21 CFR \u00a7182.90 Substances in Food Packaging",
+        "note": "Provides controlled gentle friction during brushing.",
+        "sourceIds": [
+          "CIR",
+          "ADA",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Titanium Dioxide",
+        "function": "Physical UV Sunscreen Filter & White Mineral Pigment",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe and inert on intact skin in non-nano lotion formulations. IARC classified as Group 2B (possible carcinogen) specifically when inhaled as loose respirable airborne powder. Banned as a food additive (E171) in the EU due to genotoxicity uncertainties of ingestible nanoparticles.",
+        "evidence": "IARC Monographs Volume 93 - Carbon Black, Titanium Dioxide, and Talc; EU SCCS Opinion on Titanium Dioxide (Nano) SCCS/1516/13; US FDA 21 CFR \u00a7352.10 Over-the-Counter Sunscreen Monograph",
+        "note": "Provides broad-spectrum physical reflection of UVB and short UVA rays.",
+        "sourceIds": [
+          "SCCS",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 21,
+        "exposureCharacteristics": 9,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 16,
+        "concernAreas": 5.5
+      },
+      "points": {
+        "ingredientConcernProfile": 21,
+        "exposureCharacteristics": 9,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 16,
+        "concernAreas": 5.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 63.5,
+      "displayedScore": 6.3,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.3/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 63.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Conventional high-foaming dentifrice containing SLS and flavor aromatics in oral mucosal exposure with established remineralization efficacy alongside mucosal irritation considerations."
+    },
+    "alternatives": [
+      "biomimetic-enamel-toothpaste"
+    ]
+  },
+  {
+    "id": "biomimetic-enamel-toothpaste",
+    "category": "Toothpaste",
+    "brand": "Dentavive Oral Health",
+    "brandKey": "dentavive-oral-health",
+    "name": "BioEnamel Hydroxyapatite Remineralizing Toothpaste",
+    "productType": "Toothpaste",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Microcrystalline Hydroxyapatite",
+        "function": "Biomimetic Enamel Remineralizer & Dentin Tubule Occluder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Naturally identical to mammalian tooth enamel and bone mineral. Non-toxic if ingested; completely biocompatible fluoride-free remineralizing agent.",
+        "evidence": "EU SCCS Opinion on Hydroxyapatite (SCCS/1624/20); Journal of Dentistry Clinical Studies on Biomimetic Hydroxyapatite (2020); Health Canada Natural Health Products Database",
+        "note": "Repairs microscopic enamel defects and relieves dentinal hypersensitivity.",
+        "sourceIds": [
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Hydrated Silica",
+        "function": "Mild Dental Abrasive & Cleaning Polish",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe non-reactive physical polishing agent for plaque removal. Does not scratch dental enamel when formulated with low Relative Dentin Abrasivity (RDA < 150).",
+        "evidence": "CIR Safety Assessment of Silica and Silicate Ingredients (2019); ADA Laboratory Testing Standards for Toothpaste RDA; US FDA 21 CFR \u00a7182.90 Substances in Food Packaging",
+        "note": "Provides controlled gentle friction during brushing.",
+        "sourceIds": [
+          "CIR",
+          "ADA",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 14.5,
+        "concernAreas": 1
+      },
+      "points": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 14.5,
+        "concernAreas": 1
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 38.0,
+      "displayedScore": 3.8,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.8/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 38.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "SLS-free remineralizing dentifrice utilizing physiological bone/enamel mineral analog with biocompatible oral profile."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "fresh-glow-daily-cleanser",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "DermaPure Essentials",
+    "brandKey": "dermapure-essentials",
+    "name": "FreshGlow Daily Foaming Facial Cleanser",
+    "productType": "Skincare",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 18,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 15,
+        "concernAreas": 4.5
+      },
+      "points": {
+        "ingredientConcernProfile": 18,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 15,
+        "concernAreas": 4.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 55.5,
+      "displayedScore": 5.5,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 5.5/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 55.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Foaming facial cleanser utilizing SLS and synthetic fragrance with potential for facial barrier dryness and sensitivity on delicate skin."
+    },
+    "alternatives": [
+      "pure-botanics-gentle-cleanser"
+    ]
+  },
+  {
+    "id": "pure-botanics-gentle-cleanser",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "Verdant Earth Care",
+    "brandKey": "verdant-earth-care",
+    "name": "Pure Botanics Ultra-Calm Facial Gel",
+    "productType": "Skincare",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 3,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 13.5,
+        "concernAreas": 1
+      },
+      "points": {
+        "ingredientConcernProfile": 3,
+        "exposureCharacteristics": 6,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 13.5,
+        "concernAreas": 1
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 34.5,
+      "displayedScore": 3.5,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.5/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 34.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Ultra-gentle cleansing gel tailored for reactive facial skin with benign non-ionic surfactant base and zero fragrance allergens."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "hydrashield-mineral-sunscreen",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "SolGuard Labs",
+    "brandKey": "solguard-labs",
+    "name": "HydraShield SPF 50 Broad Spectrum Mineral Defense",
+    "productType": "Skincare",
+    "exposureType": "leave-on",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Zinc Oxide",
+        "function": "Physical Broad-Spectrum UV Barrier & Skin Protectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Excellent safety profile for delicate and eczema-prone skin. Inhalation risk only if presented in aerosolized or pressurized spray format.",
+        "evidence": "US FDA Sunscreen Final Proposed Rule (GRASE Determination); CIR Safety Assessment of Zinc Oxide (2014); ECHA EC 215-222-5 REACH Evaluation",
+        "note": "FDA Category I GRASE active ingredient for solar radiation defense.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 4.5,
+        "exposureCharacteristics": 14,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 16,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 4.5,
+        "exposureCharacteristics": 14,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 16,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 46.0,
+      "displayedScore": 4.6,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 4.6/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 46.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Photostable mineral sunscreen providing broad-spectrum UV reflection with negligible transdermal penetration in leave-on use."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "lumiglow-liquid-foundation",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "Velvet Touch Cosmetics",
+    "brandKey": "velvet-touch-cosmetics",
+    "name": "LumiGlow Radiant Longwear Liquid Foundation",
+    "productType": "Cosmetics",
+    "exposureType": "leave-on",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Titanium Dioxide",
+        "function": "Physical UV Sunscreen Filter & White Mineral Pigment",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe and inert on intact skin in non-nano lotion formulations. IARC classified as Group 2B (possible carcinogen) specifically when inhaled as loose respirable airborne powder. Banned as a food additive (E171) in the EU due to genotoxicity uncertainties of ingestible nanoparticles.",
+        "evidence": "IARC Monographs Volume 93 - Carbon Black, Titanium Dioxide, and Talc; EU SCCS Opinion on Titanium Dioxide (Nano) SCCS/1516/13; US FDA 21 CFR \u00a7352.10 Over-the-Counter Sunscreen Monograph",
+        "note": "Provides broad-spectrum physical reflection of UVB and short UVA rays.",
+        "sourceIds": [
+          "SCCS",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Mica (CI 77019)",
+        "function": "Natural Mineral Shimmer & Optical Reflecting Substrate",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Inert and biocompatible in cream and compressed pressed-powder cosmetics. Inhalation risk in loose dry powder packaging; requires occupational dust controls. Supply chain traceability important for ethical sourcing verification.",
+        "evidence": "CIR Safety Assessment of Mica in Cosmetics (2015); FDA 21 CFR \u00a773.1496 Color Additive Listing: Mica; ECHA EC 310-127-6 Registration",
+        "note": "Provides pearlescent and satiny finish to powders, foundations, and eyeshadows.",
+        "sourceIds": [
+          "CIR",
+          "FDA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Methylparaben",
+        "function": "Synthetic Alkyl Ester Antifungal Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Demonstrates weak estrogenic activity in in vitro receptor binding assays. Widespread biomonitoring detection in human urine samples. EU limits concentration to 0.4% (single) or 0.8% (mixtures).",
+        "evidence": "EU SCCS Opinion on Parabens (SCCS/1348/10); CIR Amended Safety Assessment of Parabens (2020); Danish EPA Survey and Health Assessment of Chemical Substances in Cosmetics",
+        "note": "Prevents fungal and yeast proliferation in emulsion cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR",
+          "EPA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 20,
+        "exposureCharacteristics": 15.5,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 15.5,
+        "concernAreas": 5.5
+      },
+      "points": {
+        "ingredientConcernProfile": 20,
+        "exposureCharacteristics": 15.5,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 15.5,
+        "concernAreas": 5.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 66.5,
+      "displayedScore": 6.7,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.7/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 66.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Continuous facial leave-on cosmetic containing paraben preservatives and synthetic fragrance with heightened dermal residence time."
+    },
+    "alternatives": [
+      "puremineral-matte-foundation"
+    ]
+  },
+  {
+    "id": "puremineral-matte-foundation",
+    "category": "Facial Cleanser / Face Wash",
+    "brand": "Aetheria Beauty",
+    "brandKey": "aetheria-beauty",
+    "name": "PureMineral Clean Breathable Foundation",
+    "productType": "Cosmetics",
+    "exposureType": "leave-on",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Zinc Oxide",
+        "function": "Physical Broad-Spectrum UV Barrier & Skin Protectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Excellent safety profile for delicate and eczema-prone skin. Inhalation risk only if presented in aerosolized or pressurized spray format.",
+        "evidence": "US FDA Sunscreen Final Proposed Rule (GRASE Determination); CIR Safety Assessment of Zinc Oxide (2014); ECHA EC 215-222-5 REACH Evaluation",
+        "note": "FDA Category I GRASE active ingredient for solar radiation defense.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Mica (CI 77019)",
+        "function": "Natural Mineral Shimmer & Optical Reflecting Substrate",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Inert and biocompatible in cream and compressed pressed-powder cosmetics. Inhalation risk in loose dry powder packaging; requires occupational dust controls. Supply chain traceability important for ethical sourcing verification.",
+        "evidence": "CIR Safety Assessment of Mica in Cosmetics (2015); FDA 21 CFR \u00a773.1496 Color Additive Listing: Mica; ECHA EC 310-127-6 Registration",
+        "note": "Provides pearlescent and satiny finish to powders, foundations, and eyeshadows.",
+        "sourceIds": [
+          "CIR",
+          "FDA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 14,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 14,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 43.5,
+      "displayedScore": 4.3,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 4.3/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 43.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Mineral-based complexion fluid formulated without synthetic preservatives or artificial fragrances with low toxicological impact."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "chloroshield-bleach-cleaner",
+    "category": "House Cleaning Products",
+    "brand": "Vanguard Chemical Co.",
+    "brandKey": "vanguard-chemical-co",
+    "name": "ChloroShield Hospital Grade Bleach Spray",
+    "productType": "Household Cleaning",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Sodium Hypochlorite (Chlorine Bleach)",
+        "function": "Heavy-Duty Oxidizing Disinfectant & Whitening Biocide",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Corrosive to skin and severe ocular hazard causing permanent corneal injury upon contact. Releases hazardous chlorine gas if accidentally mixed with acids or ammonia. Respiratory irritant; requires good ventilation during use.",
+        "evidence": "US EPA Reregistration Eligibility Decision (RED) for Sodium Hypochlorite (1991); ECHA Committee for Risk Assessment (RAC) Opinion on Sodium Hypochlorite; NIOSH Pocket Guide to Chemical Hazards: Sodium Hypochlorite",
+        "note": "Used in surface disinfection, mildew remediation, and textile bleaching.",
+        "sourceIds": [
+          "EPA",
+          "ECHA",
+          "NIOSH"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Sodium Hydroxide (Lye / Saponification Agent)",
+        "function": "Bar Soap Saponification Agent & Alkaline pH Adjuster",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Corrosive in raw manufacturing state. Fully consumed during cold-process saponification in quality finished bar soaps (zero free lye).",
+        "evidence": "CIR Safety Assessment of Sodium Hydroxide in Cosmetics; ECHA EC 215-185-5 Dossier; US Pharmacopeia (USP-NF) Compendial Standard",
+        "note": "Reacts with fatty triglycerides to yield true soap and natural glycerin.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 29.5,
+        "exposureCharacteristics": 16.5,
+        "frequencyOfUse": 4,
+        "evidenceStrength": 18,
+        "concernAreas": 9
+      },
+      "points": {
+        "ingredientConcernProfile": 29.5,
+        "exposureCharacteristics": 16.5,
+        "frequencyOfUse": 4,
+        "evidenceStrength": 18,
+        "concernAreas": 9
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 77.0,
+      "displayedScore": 7.7,
+      "band": "Higher identified concern",
+      "badgeClass": "badge-high",
+      "why": "Score of 7.7/10.0 (Higher identified concern) determined by 5 evidence-based educational scoring factors totaling 77.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Potent oxidizing disinfectant producing respiratory and ocular irritation in enclosed spray use; requires dedicated ventilation and personal protection."
+    },
+    "alternatives": [
+      "oxyclean-multi-surface-spray"
+    ]
+  },
+  {
+    "id": "oxyclean-multi-surface-spray",
+    "category": "House Cleaning Products",
+    "brand": "GreenElements Home",
+    "brandKey": "greenelements-home",
+    "name": "OxyPure Hydrogen Peroxide Multi-Surface Cleaner",
+    "productType": "Household Cleaning",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Hydrogen Peroxide",
+        "function": "Oxygen-Based Eco-Friendly Oxidizing Bleach & Disinfectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient skin blanching at 3-6% consumer concentrations. Breaks down safely into pure water and oxygen; no persistent toxic residues.",
+        "evidence": "EU SCCS Opinion on Hydrogen Peroxide in Oral Hygiene Products (2011); US EPA Safer Choice Chemical Criteria for Oxidants; OECD SIDS Initial Assessment Report for Hydrogen Peroxide",
+        "note": "Safe green alternative to harsh chlorine bleach in household sanitization.",
+        "sourceIds": [
+          "SCCS",
+          "EPA",
+          "OECD"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 6.5,
+        "exposureCharacteristics": 11,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 15,
+        "concernAreas": 2.5
+      },
+      "points": {
+        "ingredientConcernProfile": 6.5,
+        "exposureCharacteristics": 11,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 15,
+        "concernAreas": 2.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 40.0,
+      "displayedScore": 4.0,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 4.0/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 40.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Chlorine-free oxidizing surface cleaner utilizing dilute hydrogen peroxide with biodegradable surfactants and safe physiological decomposition."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "turbowash-laundry-detergent",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "PowerClean Industrial",
+    "brandKey": "powerclean-industrial",
+    "name": "TurboWash Ultra Stain Laundry Detergent",
+    "productType": "Detergent",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "High-Efficiency Synthetic Anionic Detergent Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Can cause significant hand skin dryness and irritant dermatitis if handled without gloves. Toxic to aquatic organisms with long lasting effects in unmanaged wastewater.",
+        "evidence": "HERA (Human and Environmental Risk Assessment on ingredients of household cleaning products) LAS Risk Assessment; ECHA Registration Dossier EC 246-680-4; US EPA High Production Volume (HPV) Chemical Challenge Report",
+        "note": "Primary active surfactant in conventional laundry detergents and dish soaps.",
+        "sourceIds": [
+          "HERA",
+          "ECHA",
+          "EPA"
+        ]
+      },
+      {
+        "name": "Sodium Carbonate (Washing Soda)",
+        "function": "Water Softener, Builder & Alkaline pH Buffer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate eye irritant in concentrated powder form. Natural mineral with low ecological impact and minimal dermal toxicity.",
+        "evidence": "OECD SIDS Screening Information Data Set for Sodium Carbonate; US EPA Safer Choice Ingredient List; ECHA EC 207-838-8 REACH Dossier",
+        "note": "Precipitates calcium and magnesium ions in hard wash water.",
+        "sourceIds": [
+          "OECD",
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 23.5,
+        "exposureCharacteristics": 8.5,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 16.5,
+        "concernAreas": 6.5
+      },
+      "points": {
+        "ingredientConcernProfile": 23.5,
+        "exposureCharacteristics": 8.5,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 16.5,
+        "concernAreas": 6.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 60.0,
+      "displayedScore": 6.0,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.0/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 60.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "High-surfactant synthetic laundry formulation containing linear alkylbenzene sulfonates and synthetic fragrance with potential for fabric residue irritation and aquatic toxicity."
+    },
+    "alternatives": [
+      "ecocare-plant-laundry-liquid"
+    ]
+  },
+  {
+    "id": "ecocare-plant-laundry-liquid",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "PureNest Organics",
+    "brandKey": "purenest-organics",
+    "name": "EcoCare Hypoallergenic Plant Laundry Liquid",
+    "productType": "Detergent",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Citrate",
+        "function": "Plant-Derived Eco-Friendly Builder & Water Softener",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-toxic, food-grade biodegradable builder. Replaces synthetic phosphate builders in sustainable laundry detergents.",
+        "evidence": "US FDA 21 CFR \u00a7184.1751 (GRAS Affirmation); US EPA Safer Choice Ingredient Designation; ECHA EC 200-675-3 Registration",
+        "note": "Binds hard water minerals preventing mineral re-deposition on fabrics.",
+        "sourceIds": [
+          "FDA",
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Carbonate (Washing Soda)",
+        "function": "Water Softener, Builder & Alkaline pH Buffer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate eye irritant in concentrated powder form. Natural mineral with low ecological impact and minimal dermal toxicity.",
+        "evidence": "OECD SIDS Screening Information Data Set for Sodium Carbonate; US EPA Safer Choice Ingredient List; ECHA EC 207-838-8 REACH Dossier",
+        "note": "Precipitates calcium and magnesium ions in hard wash water.",
+        "sourceIds": [
+          "OECD",
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 5.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 14,
+        "concernAreas": 2
+      },
+      "points": {
+        "ingredientConcernProfile": 5.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 14,
+        "concernAreas": 2
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 33.5,
+      "displayedScore": 3.4,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.4/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 33.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Plant-derived laundry liquid using natural citrate builders and non-ionic surfactants for minimal textile residue and rapid environmental biodegradation."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "sportprotect-antiperspirant",
+    "category": "Deodorant / Perfume",
+    "brand": "Apex Active Care",
+    "brandKey": "apex-active-care",
+    "name": "SportProtect 48H Pro Antiperspirant Stick",
+    "productType": "Personal Care",
+    "exposureType": "leave-on",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Benzalkonium Chloride (BAK)",
+        "function": "Cationic Surfactant & Quaternary Ammonium Biocide",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potent respiratory asthmagen and contact sensitizer upon chronic exposure. Quaternary ammonium compounds (quats) can disrupt cell membranes of beneficial microbes. Aquatic toxicity hazard for non-treated wash runoff.",
+        "evidence": "US EPA Registration Review Decision for ADBAC / Benzalkonium Chloride (2020); EU ECHA Biocidal Products Committee (BPC) Assessment Report for ADBAC; American Journal of Respiratory and Critical Care Medicine on Quat Disinfectants",
+        "note": "Antibacterial disinfectant active in hospital and household surface cleaners.",
+        "sourceIds": [
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 22,
+        "exposureCharacteristics": 16,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 15,
+        "concernAreas": 6
+      },
+      "points": {
+        "ingredientConcernProfile": 22,
+        "exposureCharacteristics": 16,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 15,
+        "concernAreas": 6
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 69,
+      "displayedScore": 6.9,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.9/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 69/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Contains quaternary ammonium antimicrobial and synthetic fragrance applied to occluded axillary skin, elevating contact dermatitis and sensitization risks."
+    },
+    "alternatives": [
+      "purenature-magnesium-deodorant"
+    ]
+  },
+  {
+    "id": "purenature-magnesium-deodorant",
+    "category": "Deodorant / Perfume",
+    "brand": "Verdant Earth Care",
+    "brandKey": "verdant-earth-care",
+    "name": "PureNature Mineral Magnesium Deodorant",
+    "productType": "Personal Care",
+    "exposureType": "leave-on",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "function": "Organic Acid Salt Food & Cosmetic Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Widely used preservation agent active in acidic media (pH < 4.5). Potential formation of trace benzene if combined with ascorbic acid (Vitamin C) under elevated heat and UV light.",
+        "evidence": "US FDA 21 CFR \u00a7184.1733 (GRAS Status); WHO Concise International Chemical Assessment Document 26: Benzoic Acid and Sodium Benzoate; CIR Safety Assessment of Benzoic Acid and Sodium Benzoate (2017)",
+        "note": "Inhibits mold, yeast, and bacterial spoilage in drinks, jams, and natural shampoos.",
+        "sourceIds": [
+          "FDA",
+          "WHO",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 4.5,
+        "exposureCharacteristics": 13,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 4.5,
+        "exposureCharacteristics": 13,
+        "frequencyOfUse": 10,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 43.0,
+      "displayedScore": 4.3,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 4.3/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 43.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Gentle mineral deodorant stick utilizing biocompatible humectants and organic acid salt preservation with low dermal reactivity."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "baby-pure-cleansing-gel",
+    "category": "Body Wash / Bar Soap",
+    "brand": "NurtureSafe Organics",
+    "brandKey": "nurturesafe-organics",
+    "name": "BabyPure Ultra-Sensitive Pediatric Wash",
+    "productType": "Personal Care",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 3,
+        "exposureCharacteristics": 5,
+        "frequencyOfUse": 9,
+        "evidenceStrength": 14,
+        "concernAreas": 1
+      },
+      "points": {
+        "ingredientConcernProfile": 3,
+        "exposureCharacteristics": 5,
+        "frequencyOfUse": 9,
+        "evidenceStrength": 14,
+        "concernAreas": 1
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 32,
+      "displayedScore": 3.2,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.2/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 32/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Designed specifically for infant stratum corneum with hypoallergenic non-ionic glucosides and zero flagged sensitizers."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "citrus-spark-dish-liquid",
+    "category": "Dishwashing / Utensil Cleaning",
+    "brand": "PowerClean Industrial",
+    "brandKey": "powerclean-industrial",
+    "name": "CitrusSpark Ultra Grease Dishwashing Liquid",
+    "productType": "Dishwashing Liquid",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "High-Efficiency Synthetic Anionic Detergent Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Can cause significant hand skin dryness and irritant dermatitis if handled without gloves. Toxic to aquatic organisms with long lasting effects in unmanaged wastewater.",
+        "evidence": "HERA (Human and Environmental Risk Assessment on ingredients of household cleaning products) LAS Risk Assessment; ECHA Registration Dossier EC 246-680-4; US EPA High Production Volume (HPV) Chemical Challenge Report",
+        "note": "Primary active surfactant in conventional laundry detergents and dish soaps.",
+        "sourceIds": [
+          "HERA",
+          "ECHA",
+          "EPA"
+        ]
+      },
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 21,
+        "exposureCharacteristics": 8.5,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 16,
+        "concernAreas": 5.5
+      },
+      "points": {
+        "ingredientConcernProfile": 21,
+        "exposureCharacteristics": 8.5,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 16,
+        "concernAreas": 5.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 62.0,
+      "displayedScore": 6.2,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.2/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 62.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Conventional degreasing dish liquid formulated with high-foaming anionic surfactants and synthetic perfume with significant skin barrier stripping potential during un-gloved hand washing."
+    },
+    "alternatives": [
+      "ecoclean-plant-dish-gel"
+    ]
+  },
+  {
+    "id": "ecoclean-plant-dish-gel",
+    "category": "Dishwashing / Utensil Cleaning",
+    "brand": "PureNest Organics",
+    "brandKey": "purenest-organics",
+    "name": "EcoClean Pure Plant-Based Dishwashing Gel",
+    "productType": "Dishwashing Gel",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Citrate",
+        "function": "Plant-Derived Eco-Friendly Builder & Water Softener",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-toxic, food-grade biodegradable builder. Replaces synthetic phosphate builders in sustainable laundry detergents.",
+        "evidence": "US FDA 21 CFR \u00a7184.1751 (GRAS Affirmation); US EPA Safer Choice Ingredient Designation; ECHA EC 200-675-3 Registration",
+        "note": "Binds hard water minerals preventing mineral re-deposition on fabrics.",
+        "sourceIds": [
+          "FDA",
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "function": "Organic Acid Salt Food & Cosmetic Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Widely used preservation agent active in acidic media (pH < 4.5). Potential formation of trace benzene if combined with ascorbic acid (Vitamin C) under elevated heat and UV light.",
+        "evidence": "US FDA 21 CFR \u00a7184.1733 (GRAS Status); WHO Concise International Chemical Assessment Document 26: Benzoic Acid and Sodium Benzoate; CIR Safety Assessment of Benzoic Acid and Sodium Benzoate (2017)",
+        "note": "Inhibits mold, yeast, and bacterial spoilage in drinks, jams, and natural shampoos.",
+        "sourceIds": [
+          "FDA",
+          "WHO",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "points": {
+        "ingredientConcernProfile": 4,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 11,
+        "evidenceStrength": 14,
+        "concernAreas": 1.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 37.5,
+      "displayedScore": 3.8,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.8/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 37.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Gentle plant-based dish gel utilizing skin-conditioning glycerin and mild non-ionic surfactants to protect epidermal lipid barrier during daily utensil cleaning."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "botanic-nourish-hair-conditioner",
+    "category": "Shampoo / Conditioner",
+    "brand": "EcoPure Organics",
+    "brandKey": "ecopure-organics",
+    "name": "Botanic Nourish Restorative Hair Conditioner",
+    "productType": "Hair Conditioner",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Tocopherol (Vitamin E)",
+        "function": "Lipid Antioxidant & Skin Conditioning Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Very rare allergic contact dermatitis in hyper-reactive skin. Prevents oxidation of botanical oils and lipids.",
+        "evidence": "CIR Safety Assessment of Tocopherols (2018); EFSA Scientific Opinion on Vitamin E Tocopherols; ECHA EC 200-412-2 Chemical Dossier",
+        "note": "Fat-soluble antioxidant widely used in leave-on and organic skincare.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      },
+      {
+        "name": "Sodium Benzoate",
+        "function": "Organic Acid Salt Food & Cosmetic Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Widely used preservation agent active in acidic media (pH < 4.5). Potential formation of trace benzene if combined with ascorbic acid (Vitamin C) under elevated heat and UV light.",
+        "evidence": "US FDA 21 CFR \u00a7184.1733 (GRAS Status); WHO Concise International Chemical Assessment Document 26: Benzoic Acid and Sodium Benzoate; CIR Safety Assessment of Benzoic Acid and Sodium Benzoate (2017)",
+        "note": "Inhibits mold, yeast, and bacterial spoilage in drinks, jams, and natural shampoos.",
+        "sourceIds": [
+          "FDA",
+          "WHO",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 7.5,
+        "exposureCharacteristics": 5.5,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 14,
+        "concernAreas": 2
+      },
+      "points": {
+        "ingredientConcernProfile": 7.5,
+        "exposureCharacteristics": 5.5,
+        "frequencyOfUse": 6,
+        "evidenceStrength": 14,
+        "concernAreas": 2
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 35.0,
+      "displayedScore": 3.5,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.5/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 35.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Conditioning formulation based on biocompatible emollients and mild food-grade/cosmetic preservation with low overall concern profile."
+    },
+    "alternatives": []
+  },
+  {
+    "id": "sensi-shield-gentle-toothpaste",
+    "category": "Toothpaste",
+    "brand": "Dentavive Oral Health",
+    "brandKey": "dentavive-oral-health",
+    "name": "SensiShield Gentle Remineralizing Toothpaste",
+    "productType": "Toothpaste",
+    "exposureType": "rinse-off",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Microcrystalline Hydroxyapatite",
+        "function": "Biomimetic Enamel Remineralizer & Dentin Tubule Occluder",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Naturally identical to mammalian tooth enamel and bone mineral. Non-toxic if ingested; completely biocompatible fluoride-free remineralizing agent.",
+        "evidence": "EU SCCS Opinion on Hydroxyapatite (SCCS/1624/20); Journal of Dentistry Clinical Studies on Biomimetic Hydroxyapatite (2020); Health Canada Natural Health Products Database",
+        "note": "Repairs microscopic enamel defects and relieves dentinal hypersensitivity.",
+        "sourceIds": [
+          "SCCS"
+        ]
+      },
+      {
+        "name": "Hydrated Silica",
+        "function": "Mild Dental Abrasive & Cleaning Polish",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Safe non-reactive physical polishing agent for plaque removal. Does not scratch dental enamel when formulated with low Relative Dentin Abrasivity (RDA < 150).",
+        "evidence": "CIR Safety Assessment of Silica and Silicate Ingredients (2019); ADA Laboratory Testing Standards for Toothpaste RDA; US FDA 21 CFR \u00a7182.90 Substances in Food Packaging",
+        "note": "Provides controlled gentle friction during brushing.",
+        "sourceIds": [
+          "CIR",
+          "ADA",
+          "FDA"
+        ]
+      },
+      {
+        "name": "Glycerin (Glycerol)",
+        "function": "Skin-Identical Humectant & Moisturizer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-irritating and non-sensitizing. Exceptional biocompatibility and humectancy across all skin types.",
+        "evidence": "CIR Safety Assessment of Glycerin (2019); US Pharmacopeia (USP-NF) Monograph for Glycerin; ECHA EC 200-289-5 Substance Evaluation",
+        "note": "Attracts atmospheric moisture into stratum corneum.",
+        "sourceIds": [
+          "CIR",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Sodium Citrate",
+        "function": "Plant-Derived Eco-Friendly Builder & Water Softener",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Non-toxic, food-grade biodegradable builder. Replaces synthetic phosphate builders in sustainable laundry detergents.",
+        "evidence": "US FDA 21 CFR \u00a7184.1751 (GRAS Affirmation); US EPA Safer Choice Ingredient Designation; ECHA EC 200-675-3 Registration",
+        "note": "Binds hard water minerals preventing mineral re-deposition on fabrics.",
+        "sourceIds": [
+          "FDA",
+          "EPA",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 14,
+        "concernAreas": 1
+      },
+      "points": {
+        "ingredientConcernProfile": 3.5,
+        "exposureCharacteristics": 7,
+        "frequencyOfUse": 12,
+        "evidenceStrength": 14,
+        "concernAreas": 1
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 37.5,
+      "displayedScore": 3.8,
+      "band": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "why": "Score of 3.8/10.0 (Lower identified concern) determined by 5 evidence-based educational scoring factors totaling 37.5/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Mild non-foaming remineralizing toothpaste formulated for sensitive dentin without mucosal irritants or artificial flavorings."
+    },
+    "alternatives": [
+      "biomimetic-enamel-toothpaste"
+    ]
+  },
+  {
+    "id": "pureclarity-glass-surface-cleaner",
+    "category": "House Cleaning Products",
+    "brand": "GreenElements Home",
+    "brandKey": "greenelements-home",
+    "name": "PureClarity Streak-Free Glass & Surface Cleaner",
+    "productType": "Surface Cleaner",
+    "exposureType": "surface-contact",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Hydrogen Peroxide",
+        "function": "Oxygen-Based Eco-Friendly Oxidizing Bleach & Disinfectant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient skin blanching at 3-6% consumer concentrations. Breaks down safely into pure water and oxygen; no persistent toxic residues.",
+        "evidence": "EU SCCS Opinion on Hydrogen Peroxide in Oral Hygiene Products (2011); US EPA Safer Choice Chemical Criteria for Oxidants; OECD SIDS Initial Assessment Report for Hydrogen Peroxide",
+        "note": "Safe green alternative to harsh chlorine bleach in household sanitization.",
+        "sourceIds": [
+          "SCCS",
+          "EPA",
+          "OECD"
+        ]
+      },
+      {
+        "name": "Coco-Glucoside",
+        "function": "Ultra-Mild Non-Ionic Biodegradable Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Extremely low irritation potential; suitable for sensitive and infant skin. Rare contact dermatitis reported only in highly sensitized individuals.",
+        "evidence": "CIR Final Report on Alkyl Glucosides (2013); EU SCCS Opinion on Cosmetic Ingestion Tolerability (2017); ECHA REACH Dossier EC 604-232-9",
+        "note": "Derived from coconut oil and fruit sugars; non-stripping cleansing agent.",
+        "sourceIds": [
+          "CIR",
+          "SCCS",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Citric Acid",
+        "function": "pH Adjuster, Chelating Agent & Natural Alpha Hydroxy Acid",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": false,
+        "concern": "Mild transient ocular or dermal stinging at high unbuffered acidic concentrations. Generally recognized as safe (GRAS) with benign physiological clearance via Krebs cycle.",
+        "evidence": "US FDA 21 CFR \u00a7184.1033 (GRAS Status); CIR Safety Assessment of Citric Acid & Inorganic Citrates; Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+        "note": "Used extensively to balance formula pH between 4.5 and 5.5.",
+        "sourceIds": [
+          "FDA",
+          "CIR",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Sodium Carbonate (Washing Soda)",
+        "function": "Water Softener, Builder & Alkaline pH Buffer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate eye irritant in concentrated powder form. Natural mineral with low ecological impact and minimal dermal toxicity.",
+        "evidence": "OECD SIDS Screening Information Data Set for Sodium Carbonate; US EPA Safer Choice Ingredient List; ECHA EC 207-838-8 REACH Dossier",
+        "note": "Precipitates calcium and magnesium ions in hard wash water.",
+        "sourceIds": [
+          "OECD",
+          "EPA",
+          "ECHA"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 7,
+        "exposureCharacteristics": 11,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 14.5,
+        "concernAreas": 2.5
+      },
+      "points": {
+        "ingredientConcernProfile": 7,
+        "exposureCharacteristics": 11,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 14.5,
+        "concernAreas": 2.5
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 40.0,
+      "displayedScore": 4.0,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 4.0/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 40.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "Eco-compatible hard surface cleaner relying on oxygen oxidation and plant surfactants with low residual toxicity."
+    },
+    "alternatives": [
+      "oxyclean-multi-surface-spray"
+    ]
+  },
+  {
+    "id": "ultrapower-concentrated-laundry-pods",
+    "category": "Detergent / Cloth Washing Soap",
+    "brand": "PowerClean Industrial",
+    "brandKey": "powerclean-industrial",
+    "name": "UltraPower Concentrated Laundry Detergent Pods",
+    "productType": "Laundry Detergent",
+    "exposureType": "fabric-contact",
+    "verificationStatus": "verified",
+    "dataConfidence": "high",
+    "verificationNote": "Formulation verified against public product label and Public Product Label / Educational Demonstration Database",
+    "lastVerified": "2026-09-06T17:34:49Z",
+    "sources": [
+      "Public Product Label / Educational Demonstration Database"
+    ],
+    "ingredients": [
+      {
+        "name": "Linear Alkylbenzene Sulfonate (LAS)",
+        "function": "High-Efficiency Synthetic Anionic Detergent Surfactant",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Can cause significant hand skin dryness and irritant dermatitis if handled without gloves. Toxic to aquatic organisms with long lasting effects in unmanaged wastewater.",
+        "evidence": "HERA (Human and Environmental Risk Assessment on ingredients of household cleaning products) LAS Risk Assessment; ECHA Registration Dossier EC 246-680-4; US EPA High Production Volume (HPV) Chemical Challenge Report",
+        "note": "Primary active surfactant in conventional laundry detergents and dish soaps.",
+        "sourceIds": [
+          "HERA",
+          "ECHA",
+          "EPA"
+        ]
+      },
+      {
+        "name": "Sodium Carbonate (Washing Soda)",
+        "function": "Water Softener, Builder & Alkaline pH Buffer",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Moderate eye irritant in concentrated powder form. Natural mineral with low ecological impact and minimal dermal toxicity.",
+        "evidence": "OECD SIDS Screening Information Data Set for Sodium Carbonate; US EPA Safer Choice Ingredient List; ECHA EC 207-838-8 REACH Dossier",
+        "note": "Precipitates calcium and magnesium ions in hard wash water.",
+        "sourceIds": [
+          "OECD",
+          "EPA",
+          "ECHA"
+        ]
+      },
+      {
+        "name": "Synthetic Fragrance (Parfum)",
+        "function": "Olfactory Scenting & Masking Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Contains undisclosed mixtures of synthetic aromatics and stabilizing fixatives. Leading cause of allergic contact dermatitis in cosmetic products according to clinical patch tests. May contain undisclosed phthalate plasticizers (e.g. DEP) in non-regulated formulations.",
+        "evidence": "EU Scientific Committee on Consumer Safety (SCCS/1459/11) Fragrance Allergens; International Fragrance Association (IFRA) Standards 50th Amendment; American Academy of Dermatology (AAD) Contact Dermatitis Monograph",
+        "note": "Found in both leave-on and rinse-off personal care and household items.",
+        "sourceIds": [
+          "SCCS",
+          "IFRA"
+        ]
+      },
+      {
+        "name": "Sodium Lauryl Sulfate (SLS)",
+        "function": "Primary Anionic Surfactant & Foaming Agent",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Known primary skin and ocular irritant at concentrations above 1-2%. Can disrupt epidermal lipid barrier causing transepidermal water loss (TEWL). Implicated in recurring aphthous ulcers (canker sores) when used in dentifrices.",
+        "evidence": "Cosmetic Ingredient Review (CIR) Safety Assessment of SLS (2005); European Chemicals Agency (ECHA) Registration Dossier EC 205-788-1; World Health Organization (WHO) International Chemical Safety Card 0502",
+        "note": "Widely utilized in rinse-off cleansing formulations; contact duration usually under 2 minutes.",
+        "sourceIds": [
+          "CIR",
+          "ECHA",
+          "WHO"
+        ]
+      },
+      {
+        "name": "Phenoxyethanol",
+        "function": "Broad-Spectrum Synthetic Antimicrobial Preservative",
+        "concentration": null,
+        "combinedEntry": null,
+        "flag": true,
+        "concern": "Potential dermal irritant in individuals with eczema or damaged skin barriers. Strictly restricted to a maximum 1.0% concentration in cosmetics under EU Regulation (EC) No 1223/2009. Not recommended around infant mouth areas due to potential nervous system depression if ingested.",
+        "evidence": "EU SCCS Opinion on Phenoxyethanol (SCCS/1575/16); CIR Safety Assessment of Phenoxyethanol (2011); French ANSM Safety Evaluation of Phenoxyethanol in Pediatric Formulations",
+        "note": "Effective against Gram-negative bacteria in water-based cosmetics.",
+        "sourceIds": [
+          "SCCS",
+          "CIR"
+        ]
+      }
+    ],
+    "frequency": null,
+    "usage": null,
+    "score": {
+      "status": "scored",
+      "methodologyVersion": "1.0",
+      "factors": {
+        "ingredientConcernProfile": 24.5,
+        "exposureCharacteristics": 9,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 16.5,
+        "concernAreas": 7
+      },
+      "points": {
+        "ingredientConcernProfile": 24.5,
+        "exposureCharacteristics": 9,
+        "frequencyOfUse": 5,
+        "evidenceStrength": 16.5,
+        "concernAreas": 7
+      },
+      "factorMax": {
+        "ingredientConcernProfile": 35,
+        "exposureCharacteristics": 20,
+        "frequencyOfUse": 15,
+        "evidenceStrength": 20,
+        "concernAreas": 10
+      },
+      "maxPossiblePoints": 100,
+      "total": 62.0,
+      "displayedScore": 6.2,
+      "band": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "why": "Score of 6.2/10.0 (Moderate identified concern) determined by 5 evidence-based educational scoring factors totaling 62.0/100 points.",
+      "explanation": "Computed across 5 weighted factors based on the project's educational scoring methodology (max 100 points).",
+      "rationale": "High-potency unit dose detergent with concentrated surfactant loadings and fragrance fixatives, presenting heightened handling and aquatic impact factors."
+    },
+    "alternatives": [
+      "ecocare-plant-laundry-liquid"
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "title": "Chemical Awareness Scoring Methodology",
+  "version": "2.0",
+  "purpose": "A standardized educational framework for evaluating chemical formulations in consumer products based on toxicological evidence, exposure profiles, and ingredient properties.",
+  "scoringFactors": [
+    {
+      "id": "ingredientConcernProfile",
+      "name": "Ingredient Concern Profile",
+      "maxPoints": 35,
+      "description": "Evaluates intrinsic toxicological hazards of ingredients in the formulation, including irritancy, contact allergenicity, and organ or cellular stress benchmarks."
+    },
+    {
+      "id": "exposureCharacteristics",
+      "name": "Exposure Characteristics",
+      "maxPoints": 20,
+      "description": "Assesses the physical route of consumer contact, distinguishing between rinse-off cleansers, leave-on topicals, aerosols, and mucous-membrane exposures."
+    },
+    {
+      "id": "frequencyOfUse",
+      "name": "Frequency of Use",
+      "maxPoints": 15,
+      "description": "Weights standard consumer application intervals, distinguishing daily or multiple-times-daily personal care products from occasional household cleansers."
+    },
+    {
+      "id": "evidenceStrength",
+      "name": "Evidence Strength",
+      "maxPoints": 20,
+      "description": "Measures the scientific maturity and regulatory consensus behind identified chemical concerns (peer-reviewed CIR monographs, ECHA dossiers, WHO/IARC reports)."
+    },
+    {
+      "id": "concernAreas",
+      "name": "Concern Areas",
+      "maxPoints": 10,
+      "description": "Scores multi-system overlap across human health endpoints and environmental/aquatic ecotoxicity persistence."
+    }
+  ],
+  "totalMaximumPoints": 100,
+  "scoreCalculation": {
+    "formula": "max(1.0, total / 10)",
+    "scale": "1.0 to 10.0",
+    "description": "Sum the points across all five factors (0 to 100). Divide the total by 10, then take the maximum with 1.0 to produce a normalized score clamped between 1.0 and 10.0."
+  },
+  "scoreBands": [
+    {
+      "range": "1.0–3.9",
+      "label": "Lower identified concern",
+      "badgeClass": "badge-low",
+      "description": "Formulation exhibits low overall hazard indicators relative to the evaluated product category."
+    },
+    {
+      "range": "4.0–6.9",
+      "label": "Moderate identified concern",
+      "badgeClass": "badge-moderate",
+      "description": "Formulation contains ingredients with moderate irritation potential, mild allergens, or higher frequency exposure."
+    },
+    {
+      "range": "7.0–10.0",
+      "label": "Higher identified concern",
+      "badgeClass": "badge-high",
+      "description": "Formulation combines multiple high-concern ingredients, frequent leave-on contact, or robust regulatory hazard listings."
+    }
+  ],
+  "scoreInterpretation": "Higher level of identified chemical-awareness concerns based on the project's methodology.",
+  "disclaimer": "This is an educational project metric and NOT an official medical, regulatory or safety rating.",
+  "limitations": [
+    "Educational Scope: The scoring methodology is designed to facilitate consumer literacy and college research, not clinical diagnoses.",
+    "Label Transparency: Formulations rely on public packaging declarations (INCI names) and do not account for trade-secret proprietary concentrations unless publicly disclosed.",
+    "Individual Variation: Dermal sensitization and allergic reactivity vary widely across individual genetics, skin barrier health, and pre-existing atopic conditions.",
+    "Non-Regulatory Status: Scores reflect comparative academic evaluations and do not replace mandatory statutory compliance frameworks (EU Cosmetics Regulation, US FDA/FTC)."
+  ],
+  "authoritativeSources": [
+    {
+      "code": "CIR",
+      "organization": "Cosmetic Ingredient Review",
+      "description": "Independent expert panel reviewing cosmetic chemistry safety and concentration limits."
+    },
+    {
+      "code": "ECHA",
+      "organization": "European Chemicals Agency (REACH)",
+      "description": "Comprehensive registration dossiers on chemical hazard classifications and environmental risk."
+    },
+    {
+      "code": "SCCS",
+      "organization": "EU Scientific Committee on Consumer Safety",
+      "description": "Scientific opinions on consumer product health risks, fragrance allergens, and preservatives."
+    },
+    {
+      "code": "US EPA",
+      "organization": "United States Environmental Protection Agency",
+      "description": "Safer Choice standard, chemical health advisories, and aquatic toxicity databases."
+    },
+    {
+      "code": "WHO/IARC",
+      "organization": "World Health Organization / IARC",
+      "description": "International monographs on carcinogenic risks and global chemical safety cards (ICSC)."
+    },
+    {
+      "code": "US FDA",
+      "organization": "United States Food & Drug Administration",
+      "description": "Code of Federal Regulations (CFR 21), GRAS status, and OTC drug monographs."
+    }
+  ]
+}
